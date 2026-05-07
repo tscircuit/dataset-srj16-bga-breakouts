@@ -1,572 +1,2406 @@
 {
-  "generatedBy": {
-    "pipeline": "AutoroutingPipelineSolver4_TinyHypergraph",
-    "phase": "portPointPathingSolver",
-    "autorouterPackage": "@tscircuit/capacity-autorouter",
-    "autorouterVersion": "0.0.484"
-  },
-  "cases": [
+  "datasetName": "dataset-srj16-bga-breakouts",
+  "sampleCount": 200,
+  "rule": "Every connection has exactly one endpoint on the centered BGA pad grid. IO fanout pads are placed on board edges.",
+  "samples": [
     {
       "sampleName": "sample001",
       "sourceFile": "circuits/sample001/sample001.circuit.simple-route.json",
-      "outputFile": "dataset-dist/sample001.tiny-hypergraph.json",
-      "stats": {
-        "sectionSearchGeneratedCandidateCount": 0,
-        "sectionSearchCandidateCount": 0,
-        "sectionSearchDuplicateCandidateCount": 0,
-        "sectionSearchBaselineMaxRegionCost": 0,
-        "sectionSearchFinalMaxRegionCost": 0,
-        "sectionSearchDelta": 0,
-        "selectedSectionCandidateLabel": null,
-        "selectedSectionCandidateFamily": null,
-        "sectionSearchMs": 0.6244999999999976,
-        "sectionSearchBaselineEvaluationMs": 0.5724579999999975,
-        "sectionSearchCandidateEligibilityMs": 0,
-        "sectionSearchCandidateInitMs": 0,
-        "sectionSearchCandidateSolveMs": 0,
-        "sectionSearchCandidateReplayScoreMs": 0,
-        "sectionMaskPortCount": 0,
-        "activeRouteCount": 0,
-        "initialMaxRegionCost": 0,
-        "finalMaxRegionCost": 0,
-        "optimized": false,
-        "currentStage": "none",
-        "stageStats": {
-          "solveGraph": {
-            "timeSpent": 1.6165419999999955,
-            "iterations": 0,
-            "completed": true
-          },
-          "optimizeSection": {
-            "timeSpent": 0.15637499999999704,
-            "iterations": 0,
-            "completed": true
-          }
-        }
-      },
-      "resultSummary": {
-        "solved": true,
-        "failed": false,
-        "error": null,
-        "iterations": 14,
-        "timeToSolve": null,
-        "pipelineIterations": 1339,
-        "nextPipelinePhase": "uniformPortDistributionSolver",
-        "regionCount": 161,
-        "portCount": 1307,
-        "connectionCount": 2,
-        "outputNodeCount": 7,
-        "inputNodeCount": 161
+      "connectionCount": 16,
+      "obstacleCount": 52,
+      "bounds": {
+        "minX": -5.38,
+        "maxX": 5.38,
+        "minY": -5.38,
+        "maxY": 5.38
       }
     },
     {
       "sampleName": "sample002",
       "sourceFile": "circuits/sample002/sample002.circuit.simple-route.json",
-      "outputFile": "dataset-dist/sample002.tiny-hypergraph.json",
-      "stats": {
-        "sectionSearchGeneratedCandidateCount": 0,
-        "sectionSearchCandidateCount": 0,
-        "sectionSearchDuplicateCandidateCount": 0,
-        "sectionSearchBaselineMaxRegionCost": 0,
-        "sectionSearchFinalMaxRegionCost": 0,
-        "sectionSearchDelta": 0,
-        "selectedSectionCandidateLabel": null,
-        "selectedSectionCandidateFamily": null,
-        "sectionSearchMs": 0.16162499999998658,
-        "sectionSearchBaselineEvaluationMs": 0.1460830000000044,
-        "sectionSearchCandidateEligibilityMs": 0,
-        "sectionSearchCandidateInitMs": 0,
-        "sectionSearchCandidateSolveMs": 0,
-        "sectionSearchCandidateReplayScoreMs": 0,
-        "sectionMaskPortCount": 0,
-        "activeRouteCount": 0,
-        "initialMaxRegionCost": 0,
-        "finalMaxRegionCost": 0,
-        "optimized": false,
-        "currentStage": "none",
-        "stageStats": {
-          "solveGraph": {
-            "timeSpent": 0.48758399999999824,
-            "iterations": 0,
-            "completed": true
-          },
-          "optimizeSection": {
-            "timeSpent": 0.058958000000018274,
-            "iterations": 0,
-            "completed": true
-          }
-        }
-      },
-      "resultSummary": {
-        "solved": true,
-        "failed": false,
-        "error": null,
-        "iterations": 18,
-        "timeToSolve": null,
-        "pipelineIterations": 1458,
-        "nextPipelinePhase": "uniformPortDistributionSolver",
-        "regionCount": 180,
-        "portCount": 1572,
-        "connectionCount": 2,
-        "outputNodeCount": 11,
-        "inputNodeCount": 180
+      "connectionCount": 29,
+      "obstacleCount": 78,
+      "bounds": {
+        "minX": -6.525,
+        "maxX": 6.525,
+        "minY": -6.525,
+        "maxY": 6.525
       }
     },
     {
       "sampleName": "sample003",
       "sourceFile": "circuits/sample003/sample003.circuit.simple-route.json",
-      "outputFile": "dataset-dist/sample003.tiny-hypergraph.json",
-      "stats": {
-        "sectionSearchGeneratedCandidateCount": 10,
-        "sectionSearchCandidateCount": 9,
-        "sectionSearchDuplicateCandidateCount": 0,
-        "sectionSearchBaselineMaxRegionCost": 0.013577453007400667,
-        "sectionSearchFinalMaxRegionCost": 0.002366641622839969,
-        "sectionSearchDelta": 0.011210811384560697,
-        "selectedSectionCandidateLabel": "hot-12-onehop-touch",
-        "selectedSectionCandidateFamily": "onehop-touch",
-        "sectionSearchMs": 13.491332999999997,
-        "sectionSearchBaselineEvaluationMs": 0.21429200000000037,
-        "sectionSearchCandidateEligibilityMs": 0.13978899999995065,
-        "sectionSearchCandidateInitMs": 1.2487490000000037,
-        "sectionSearchCandidateSolveMs": 6.291582999999974,
-        "sectionSearchCandidateReplayScoreMs": 4.0156240000000025,
-        "sectionMaskPortCount": 276,
-        "sectionBaselineMaxRegionCost": 0.013577453007400667,
-        "sectionBaselineTotalRegionCost": 0.013577453007400667,
-        "effectiveRipThresholdStart": 0.05,
-        "effectiveRipThresholdEnd": 0.05,
-        "effectiveMaxRips": 20,
-        "activeRouteCount": 2,
-        "currentRipThreshold": 0.05,
-        "hotRegionCount": 0,
-        "maxRegionCost": 0.002366641622839969,
-        "totalRegionCost": 0.004660387389911503,
-        "bestMaxRegionCost": 0.002366641622839969,
-        "bestTotalRegionCost": 0.004660387389911503,
-        "ripCount": 0,
-        "initialMaxRegionCost": 0.013577453007400667,
-        "initialTotalRegionCost": 0.015944094630240636,
-        "candidateMaxRegionCost": 0.002366641622839969,
-        "candidateTotalRegionCost": 0.004660387389911503,
-        "finalMaxRegionCost": 0.002366641622839969,
-        "finalTotalRegionCost": 0.004660387389911503,
-        "optimized": true,
-        "currentStage": "none",
-        "stageStats": {
-          "solveGraph": {
-            "timeSpent": 0.5629169999999988,
-            "iterations": 0,
-            "completed": true
-          },
-          "optimizeSection": {
-            "timeSpent": 0.5391250000000127,
-            "iterations": 0,
-            "completed": true
-          }
-        }
-      },
-      "resultSummary": {
-        "solved": true,
-        "failed": false,
-        "error": null,
-        "iterations": 51,
-        "timeToSolve": null,
-        "pipelineIterations": 1575,
-        "nextPipelinePhase": "uniformPortDistributionSolver",
-        "regionCount": 170,
-        "portCount": 1617,
-        "connectionCount": 2,
-        "outputNodeCount": 17,
-        "inputNodeCount": 170
+      "connectionCount": 42,
+      "obstacleCount": 106,
+      "bounds": {
+        "minX": -8.625,
+        "maxX": 8.625,
+        "minY": -8.625,
+        "maxY": 8.625
       }
     },
     {
       "sampleName": "sample004",
       "sourceFile": "circuits/sample004/sample004.circuit.simple-route.json",
-      "outputFile": "dataset-dist/sample004.tiny-hypergraph.json",
-      "stats": {
-        "sectionSearchGeneratedCandidateCount": 10,
-        "sectionSearchCandidateCount": 9,
-        "sectionSearchDuplicateCandidateCount": 1,
-        "sectionSearchBaselineMaxRegionCost": 0.014814814814814814,
-        "sectionSearchFinalMaxRegionCost": 0.014814814814814814,
-        "sectionSearchDelta": 0,
-        "selectedSectionCandidateLabel": null,
-        "selectedSectionCandidateFamily": null,
-        "sectionSearchMs": 6.539875000000023,
-        "sectionSearchBaselineEvaluationMs": 0.13345899999998778,
-        "sectionSearchCandidateEligibilityMs": 0.07237300000005575,
-        "sectionSearchCandidateInitMs": 0.5825420000000179,
-        "sectionSearchCandidateSolveMs": 5.151042000000018,
-        "sectionSearchCandidateReplayScoreMs": 0,
-        "sectionMaskPortCount": 0,
-        "activeRouteCount": 0,
-        "initialMaxRegionCost": 0.014814814814814814,
-        "finalMaxRegionCost": 0.014814814814814814,
-        "optimized": false,
-        "currentStage": "none",
-        "stageStats": {
-          "solveGraph": {
-            "timeSpent": 0.5440419999999904,
-            "iterations": 0,
-            "completed": true
-          },
-          "optimizeSection": {
-            "timeSpent": 0.03520800000001145,
-            "iterations": 0,
-            "completed": true
-          }
-        }
-      },
-      "resultSummary": {
-        "solved": true,
-        "failed": false,
-        "error": null,
-        "iterations": 43,
-        "timeToSolve": null,
-        "pipelineIterations": 1581,
-        "nextPipelinePhase": "uniformPortDistributionSolver",
-        "regionCount": 183,
-        "portCount": 1596,
-        "connectionCount": 2,
-        "outputNodeCount": 13,
-        "inputNodeCount": 183
+      "connectionCount": 55,
+      "obstacleCount": 136,
+      "bounds": {
+        "minX": -10.725,
+        "maxX": 10.725,
+        "minY": -10.725,
+        "maxY": 10.725
       }
     },
     {
       "sampleName": "sample005",
       "sourceFile": "circuits/sample005/sample005.circuit.simple-route.json",
-      "outputFile": "dataset-dist/sample005.tiny-hypergraph.json",
-      "stats": {
-        "sectionSearchGeneratedCandidateCount": 10,
-        "sectionSearchCandidateCount": 10,
-        "sectionSearchDuplicateCandidateCount": 0,
-        "sectionSearchBaselineMaxRegionCost": 0.009922417313189056,
-        "sectionSearchFinalMaxRegionCost": 0.009922417313189056,
-        "sectionSearchDelta": 0,
-        "selectedSectionCandidateLabel": null,
-        "selectedSectionCandidateFamily": null,
-        "sectionSearchMs": 5.126375000000024,
-        "sectionSearchBaselineEvaluationMs": 0.13545799999999986,
-        "sectionSearchCandidateEligibilityMs": 0.061374000000000706,
-        "sectionSearchCandidateInitMs": 0.679665,
-        "sectionSearchCandidateSolveMs": 3.770957999999979,
-        "sectionSearchCandidateReplayScoreMs": 0,
-        "sectionMaskPortCount": 0,
-        "activeRouteCount": 0,
-        "initialMaxRegionCost": 0.009922417313189056,
-        "finalMaxRegionCost": 0.009922417313189056,
-        "optimized": false,
-        "currentStage": "none",
-        "stageStats": {
-          "solveGraph": {
-            "timeSpent": 0.38341700000000856,
-            "iterations": 0,
-            "completed": true
-          },
-          "optimizeSection": {
-            "timeSpent": 0.028333000000003494,
-            "iterations": 0,
-            "completed": true
-          }
-        }
-      },
-      "resultSummary": {
-        "solved": true,
-        "failed": false,
-        "error": null,
-        "iterations": 29,
-        "timeToSolve": null,
-        "pipelineIterations": 1545,
-        "nextPipelinePhase": "uniformPortDistributionSolver",
-        "regionCount": 177,
-        "portCount": 1693,
-        "connectionCount": 2,
-        "outputNodeCount": 15,
-        "inputNodeCount": 177
+      "connectionCount": 68,
+      "obstacleCount": 168,
+      "bounds": {
+        "minX": -12.825,
+        "maxX": 12.825,
+        "minY": -12.825,
+        "maxY": 12.825
       }
     },
     {
       "sampleName": "sample006",
       "sourceFile": "circuits/sample006/sample006.circuit.simple-route.json",
-      "outputFile": "dataset-dist/sample006.tiny-hypergraph.json",
-      "stats": {
-        "sectionSearchGeneratedCandidateCount": 10,
-        "sectionSearchCandidateCount": 8,
-        "sectionSearchDuplicateCandidateCount": 2,
-        "sectionSearchBaselineMaxRegionCost": 0.2692520775623272,
-        "sectionSearchFinalMaxRegionCost": 0.2692520775623272,
-        "sectionSearchDelta": 0,
-        "selectedSectionCandidateLabel": null,
-        "selectedSectionCandidateFamily": null,
-        "sectionSearchMs": 20.30612500000001,
-        "sectionSearchBaselineEvaluationMs": 1.0734170000000063,
-        "sectionSearchCandidateEligibilityMs": 0.16870799999998098,
-        "sectionSearchCandidateInitMs": 1.3776259999999638,
-        "sectionSearchCandidateSolveMs": 16.14266699999996,
-        "sectionSearchCandidateReplayScoreMs": 0,
-        "sectionMaskPortCount": 0,
-        "activeRouteCount": 0,
-        "initialMaxRegionCost": 0.2692520775623272,
-        "finalMaxRegionCost": 0.2692520775623272,
-        "optimized": false,
-        "currentStage": "none",
-        "stageStats": {
-          "solveGraph": {
-            "timeSpent": 5.807000000000016,
-            "iterations": 0,
-            "completed": true
-          },
-          "optimizeSection": {
-            "timeSpent": 0.045000000000015916,
-            "iterations": 0,
-            "completed": true
-          }
-        }
-      },
-      "resultSummary": {
-        "solved": true,
-        "failed": false,
-        "error": null,
-        "iterations": 344,
-        "timeToSolve": null,
-        "pipelineIterations": 1750,
-        "nextPipelinePhase": "uniformPortDistributionSolver",
-        "regionCount": 169,
-        "portCount": 1661,
-        "connectionCount": 19,
-        "outputNodeCount": 44,
-        "inputNodeCount": 169
+      "connectionCount": 81,
+      "obstacleCount": 202,
+      "bounds": {
+        "minX": -15.625,
+        "maxX": 15.625,
+        "minY": -15.625,
+        "maxY": 15.625
       }
     },
     {
       "sampleName": "sample007",
       "sourceFile": "circuits/sample007/sample007.circuit.simple-route.json",
-      "outputFile": "dataset-dist/sample007.tiny-hypergraph.json",
-      "stats": {
-        "sectionSearchGeneratedCandidateCount": 10,
-        "sectionSearchCandidateCount": 8,
-        "sectionSearchDuplicateCandidateCount": 1,
-        "sectionSearchBaselineMaxRegionCost": 0.2692520775623272,
-        "sectionSearchFinalMaxRegionCost": 0.2692520775623272,
-        "sectionSearchDelta": 0,
-        "selectedSectionCandidateLabel": null,
-        "selectedSectionCandidateFamily": null,
-        "sectionSearchMs": 20.015125000000012,
-        "sectionSearchBaselineEvaluationMs": 0.20520900000002484,
-        "sectionSearchCandidateEligibilityMs": 0.19008100000007744,
-        "sectionSearchCandidateInitMs": 2.072499000000164,
-        "sectionSearchCandidateSolveMs": 16.674458999999956,
-        "sectionSearchCandidateReplayScoreMs": 0,
-        "sectionMaskPortCount": 0,
-        "activeRouteCount": 0,
-        "initialMaxRegionCost": 0.2692520775623272,
-        "finalMaxRegionCost": 0.2692520775623272,
-        "optimized": false,
-        "currentStage": "none",
-        "stageStats": {
-          "solveGraph": {
-            "timeSpent": 6.108791999999994,
-            "iterations": 0,
-            "completed": true
-          },
-          "optimizeSection": {
-            "timeSpent": 0.0637079999999628,
-            "iterations": 0,
-            "completed": true
-          }
-        }
-      },
-      "resultSummary": {
-        "solved": true,
-        "failed": false,
-        "error": null,
-        "iterations": 605,
-        "timeToSolve": null,
-        "pipelineIterations": 2623,
-        "nextPipelinePhase": "uniformPortDistributionSolver",
-        "regionCount": 237,
-        "portCount": 2628,
-        "connectionCount": 19,
-        "outputNodeCount": 69,
-        "inputNodeCount": 237
+      "connectionCount": 94,
+      "obstacleCount": 238,
+      "bounds": {
+        "minX": -17.725,
+        "maxX": 17.725,
+        "minY": -17.725,
+        "maxY": 17.725
       }
     },
     {
       "sampleName": "sample008",
       "sourceFile": "circuits/sample008/sample008.circuit.simple-route.json",
-      "outputFile": "dataset-dist/sample008.tiny-hypergraph.json",
-      "stats": {
-        "sectionSearchGeneratedCandidateCount": 10,
-        "sectionSearchCandidateCount": 10,
-        "sectionSearchDuplicateCandidateCount": 0,
-        "sectionSearchBaselineMaxRegionCost": 0.6558704453441305,
-        "sectionSearchFinalMaxRegionCost": 0.6558704453441305,
-        "sectionSearchDelta": 0,
-        "selectedSectionCandidateLabel": null,
-        "selectedSectionCandidateFamily": null,
-        "sectionSearchMs": 308.55312499999997,
-        "sectionSearchBaselineEvaluationMs": 0.22383299999995643,
-        "sectionSearchCandidateEligibilityMs": 0.24687499999976126,
-        "sectionSearchCandidateInitMs": 1.3419149999999718,
-        "sectionSearchCandidateSolveMs": 305.9471680000001,
-        "sectionSearchCandidateReplayScoreMs": 0,
-        "sectionMaskPortCount": 0,
-        "activeRouteCount": 0,
-        "initialMaxRegionCost": 0.6558704453441305,
-        "finalMaxRegionCost": 0.6558704453441305,
-        "optimized": false,
-        "currentStage": "none",
-        "stageStats": {
-          "solveGraph": {
-            "timeSpent": 8.051083000000006,
-            "iterations": 0,
-            "completed": true
-          },
-          "optimizeSection": {
-            "timeSpent": 0.05670799999995779,
-            "iterations": 0,
-            "completed": true
-          }
-        }
-      },
-      "resultSummary": {
-        "solved": true,
-        "failed": false,
-        "error": null,
-        "iterations": 1033,
-        "timeToSolve": null,
-        "pipelineIterations": 3110,
-        "nextPipelinePhase": "uniformPortDistributionSolver",
-        "regionCount": 233,
-        "portCount": 2629,
-        "connectionCount": 19,
-        "outputNodeCount": 68,
-        "inputNodeCount": 233
+      "connectionCount": 23,
+      "obstacleCount": 59,
+      "bounds": {
+        "minX": -5.38,
+        "maxX": 5.38,
+        "minY": -5.38,
+        "maxY": 5.38
       }
     },
     {
       "sampleName": "sample009",
       "sourceFile": "circuits/sample009/sample009.circuit.simple-route.json",
-      "outputFile": "dataset-dist/sample009.tiny-hypergraph.json",
-      "stats": {
-        "sectionSearchGeneratedCandidateCount": 10,
-        "sectionSearchCandidateCount": 8,
-        "sectionSearchDuplicateCandidateCount": 2,
-        "sectionSearchBaselineMaxRegionCost": 0.3374999999999999,
-        "sectionSearchFinalMaxRegionCost": 0.3374999999999999,
-        "sectionSearchDelta": 0,
-        "selectedSectionCandidateLabel": null,
-        "selectedSectionCandidateFamily": null,
-        "sectionSearchMs": 25.83095800000001,
-        "sectionSearchBaselineEvaluationMs": 0.22575000000006185,
-        "sectionSearchCandidateEligibilityMs": 0.20349999999962165,
-        "sectionSearchCandidateInitMs": 3.7868339999997715,
-        "sectionSearchCandidateSolveMs": 20.82570800000019,
-        "sectionSearchCandidateReplayScoreMs": 0,
-        "sectionMaskPortCount": 0,
-        "activeRouteCount": 0,
-        "initialMaxRegionCost": 0.3374999999999999,
-        "finalMaxRegionCost": 0.3374999999999999,
-        "optimized": false,
-        "currentStage": "none",
-        "stageStats": {
-          "solveGraph": {
-            "timeSpent": 8.889958000000092,
-            "iterations": 0,
-            "completed": true
-          },
-          "optimizeSection": {
-            "timeSpent": 0.05404200000009496,
-            "iterations": 0,
-            "completed": true
-          }
-        }
-      },
-      "resultSummary": {
-        "solved": true,
-        "failed": false,
-        "error": null,
-        "iterations": 900,
-        "timeToSolve": null,
-        "pipelineIterations": 3183,
-        "nextPipelinePhase": "uniformPortDistributionSolver",
-        "regionCount": 257,
-        "portCount": 2934,
-        "connectionCount": 19,
-        "outputNodeCount": 82,
-        "inputNodeCount": 257
+      "connectionCount": 18,
+      "obstacleCount": 67,
+      "bounds": {
+        "minX": -5.78,
+        "maxX": 5.78,
+        "minY": -5.78,
+        "maxY": 5.78
       }
     },
     {
       "sampleName": "sample010",
       "sourceFile": "circuits/sample010/sample010.circuit.simple-route.json",
-      "outputFile": "dataset-dist/sample010.tiny-hypergraph.json",
-      "stats": {
-        "sectionSearchGeneratedCandidateCount": 10,
-        "sectionSearchCandidateCount": 9,
-        "sectionSearchDuplicateCandidateCount": 0,
-        "sectionSearchBaselineMaxRegionCost": 0.49045260964940324,
-        "sectionSearchFinalMaxRegionCost": 0.3161738617041773,
-        "sectionSearchDelta": 0.17427874794522596,
-        "selectedSectionCandidateLabel": "hot-13-onehop-touch",
-        "selectedSectionCandidateFamily": "onehop-touch",
-        "sectionSearchMs": 124.89904100000001,
-        "sectionSearchBaselineEvaluationMs": 0.22716700000000856,
-        "sectionSearchCandidateEligibilityMs": 0.22162399999990612,
-        "sectionSearchCandidateInitMs": 2.394292000000064,
-        "sectionSearchCandidateSolveMs": 114.45649999999989,
-        "sectionSearchCandidateReplayScoreMs": 6.7778749999999945,
-        "sectionMaskPortCount": 339,
-        "sectionBaselineMaxRegionCost": 0.49045260964940324,
-        "sectionBaselineTotalRegionCost": 0.9002813326845407,
-        "effectiveRipThresholdStart": 0.05,
-        "effectiveRipThresholdEnd": 0.49045260964940324,
-        "effectiveMaxRips": 20,
-        "activeRouteCount": 16,
-        "currentRipThreshold": 0.40786774534014014,
-        "hotRegionCount": 1,
-        "maxRegionCost": 0.49045260964940324,
-        "totalRegionCost": 4.460484970350901,
-        "bestMaxRegionCost": 0.3161738617041773,
-        "bestTotalRegionCost": 4.187724449985506,
-        "ripCount": 13,
-        "reripRegionCount": 2,
-        "initialMaxRegionCost": 0.49045260964940324,
-        "initialTotalRegionCost": 4.078962333001301,
-        "candidateMaxRegionCost": 0.3161738617041773,
-        "candidateTotalRegionCost": 4.187724449985507,
-        "finalMaxRegionCost": 0.3161738617041773,
-        "finalTotalRegionCost": 4.187724449985507,
-        "optimized": true,
-        "currentStage": "none",
-        "stageStats": {
-          "solveGraph": {
-            "timeSpent": 15.793542000000002,
-            "iterations": 0,
-            "completed": true
-          },
-          "optimizeSection": {
-            "timeSpent": 17.83020900000008,
-            "iterations": 0,
-            "completed": true
-          }
-        }
-      },
-      "resultSummary": {
-        "solved": true,
-        "failed": false,
-        "error": null,
-        "iterations": 10137,
-        "timeToSolve": null,
-        "pipelineIterations": 12414,
-        "nextPipelinePhase": "uniformPortDistributionSolver",
-        "regionCount": 268,
-        "portCount": 2796,
-        "connectionCount": 19,
-        "outputNodeCount": 83,
-        "inputNodeCount": 268
+      "connectionCount": 35,
+      "obstacleCount": 99,
+      "bounds": {
+        "minX": -7.225,
+        "maxX": 7.225,
+        "minY": -7.225,
+        "maxY": 7.225
+      }
+    },
+    {
+      "sampleName": "sample011",
+      "sourceFile": "circuits/sample011/sample011.circuit.simple-route.json",
+      "connectionCount": 80,
+      "obstacleCount": 161,
+      "bounds": {
+        "minX": -14.925,
+        "maxX": 14.925,
+        "minY": -14.925,
+        "maxY": 14.925
+      }
+    },
+    {
+      "sampleName": "sample012",
+      "sourceFile": "circuits/sample012/sample012.circuit.simple-route.json",
+      "connectionCount": 79,
+      "obstacleCount": 179,
+      "bounds": {
+        "minX": -14.925,
+        "maxX": 14.925,
+        "minY": -14.925,
+        "maxY": 14.925
+      }
+    },
+    {
+      "sampleName": "sample013",
+      "sourceFile": "circuits/sample013/sample013.circuit.simple-route.json",
+      "connectionCount": 92,
+      "obstacleCount": 213,
+      "bounds": {
+        "minX": -17.025,
+        "maxX": 17.025,
+        "minY": -17.025,
+        "maxY": 17.025
+      }
+    },
+    {
+      "sampleName": "sample014",
+      "sourceFile": "circuits/sample014/sample014.circuit.simple-route.json",
+      "connectionCount": 25,
+      "obstacleCount": 169,
+      "bounds": {
+        "minX": -7.78,
+        "maxX": 7.78,
+        "minY": -7.78,
+        "maxY": 7.78
+      }
+    },
+    {
+      "sampleName": "sample015",
+      "sourceFile": "circuits/sample015/sample015.circuit.simple-route.json",
+      "connectionCount": 30,
+      "obstacleCount": 66,
+      "bounds": {
+        "minX": -6.525,
+        "maxX": 6.525,
+        "minY": -6.525,
+        "maxY": 6.525
+      }
+    },
+    {
+      "sampleName": "sample016",
+      "sourceFile": "circuits/sample016/sample016.circuit.simple-route.json",
+      "connectionCount": 41,
+      "obstacleCount": 90,
+      "bounds": {
+        "minX": -8.625,
+        "maxX": 8.625,
+        "minY": -8.625,
+        "maxY": 8.625
+      }
+    },
+    {
+      "sampleName": "sample017",
+      "sourceFile": "circuits/sample017/sample017.circuit.simple-route.json",
+      "connectionCount": 28,
+      "obstacleCount": 92,
+      "bounds": {
+        "minX": -6.18,
+        "maxX": 6.18,
+        "minY": -6.18,
+        "maxY": 6.18
+      }
+    },
+    {
+      "sampleName": "sample018",
+      "sourceFile": "circuits/sample018/sample018.circuit.simple-route.json",
+      "connectionCount": 39,
+      "obstacleCount": 120,
+      "bounds": {
+        "minX": -7.925,
+        "maxX": 7.925,
+        "minY": -7.925,
+        "maxY": 7.925
+      }
+    },
+    {
+      "sampleName": "sample019",
+      "sourceFile": "circuits/sample019/sample019.circuit.simple-route.json",
+      "connectionCount": 90,
+      "obstacleCount": 190,
+      "bounds": {
+        "minX": -17.025,
+        "maxX": 17.025,
+        "minY": -17.025,
+        "maxY": 17.025
+      }
+    },
+    {
+      "sampleName": "sample020",
+      "sourceFile": "circuits/sample020/sample020.circuit.simple-route.json",
+      "connectionCount": 23,
+      "obstacleCount": 144,
+      "bounds": {
+        "minX": -7.38,
+        "maxX": 7.38,
+        "minY": -7.38,
+        "maxY": 7.38
+      }
+    },
+    {
+      "sampleName": "sample021",
+      "sourceFile": "circuits/sample021/sample021.circuit.simple-route.json",
+      "connectionCount": 36,
+      "obstacleCount": 180,
+      "bounds": {
+        "minX": -7.78,
+        "maxX": 7.78,
+        "minY": -7.78,
+        "maxY": 7.78
+      }
+    },
+    {
+      "sampleName": "sample022",
+      "sourceFile": "circuits/sample022/sample022.circuit.simple-route.json",
+      "connectionCount": 16,
+      "obstacleCount": 52,
+      "bounds": {
+        "minX": -5.38,
+        "maxX": 5.38,
+        "minY": -5.38,
+        "maxY": 5.38
+      }
+    },
+    {
+      "sampleName": "sample023",
+      "sourceFile": "circuits/sample023/sample023.circuit.simple-route.json",
+      "connectionCount": 30,
+      "obstacleCount": 79,
+      "bounds": {
+        "minX": -6.525,
+        "maxX": 6.525,
+        "minY": -6.525,
+        "maxY": 6.525
+      }
+    },
+    {
+      "sampleName": "sample024",
+      "sourceFile": "circuits/sample024/sample024.circuit.simple-route.json",
+      "connectionCount": 21,
+      "obstacleCount": 85,
+      "bounds": {
+        "minX": -6.18,
+        "maxX": 6.18,
+        "minY": -6.18,
+        "maxY": 6.18
+      }
+    },
+    {
+      "sampleName": "sample025",
+      "sourceFile": "circuits/sample025/sample025.circuit.simple-route.json",
+      "connectionCount": 64,
+      "obstacleCount": 145,
+      "bounds": {
+        "minX": -12.125,
+        "maxX": 12.125,
+        "minY": -12.125,
+        "maxY": 12.125
+      }
+    },
+    {
+      "sampleName": "sample026",
+      "sourceFile": "circuits/sample026/sample026.circuit.simple-route.json",
+      "connectionCount": 21,
+      "obstacleCount": 121,
+      "bounds": {
+        "minX": -6.98,
+        "maxX": 6.98,
+        "minY": -6.98,
+        "maxY": 6.98
+      }
+    },
+    {
+      "sampleName": "sample027",
+      "sourceFile": "circuits/sample027/sample027.circuit.simple-route.json",
+      "connectionCount": 34,
+      "obstacleCount": 155,
+      "bounds": {
+        "minX": -7.38,
+        "maxX": 7.38,
+        "minY": -7.38,
+        "maxY": 7.38
+      }
+    },
+    {
+      "sampleName": "sample028",
+      "sourceFile": "circuits/sample028/sample028.circuit.simple-route.json",
+      "connectionCount": 47,
+      "obstacleCount": 191,
+      "bounds": {
+        "minX": -9.325,
+        "maxX": 9.325,
+        "minY": -9.325,
+        "maxY": 9.325
+      }
+    },
+    {
+      "sampleName": "sample029",
+      "sourceFile": "circuits/sample029/sample029.circuit.simple-route.json",
+      "connectionCount": 23,
+      "obstacleCount": 59,
+      "bounds": {
+        "minX": -5.38,
+        "maxX": 5.38,
+        "minY": -5.38,
+        "maxY": 5.38
+      }
+    },
+    {
+      "sampleName": "sample030",
+      "sourceFile": "circuits/sample030/sample030.circuit.simple-route.json",
+      "connectionCount": 19,
+      "obstacleCount": 68,
+      "bounds": {
+        "minX": -5.78,
+        "maxX": 5.78,
+        "minY": -5.78,
+        "maxY": 5.78
+      }
+    },
+    {
+      "sampleName": "sample031",
+      "sourceFile": "circuits/sample031/sample031.circuit.simple-route.json",
+      "connectionCount": 63,
+      "obstacleCount": 127,
+      "bounds": {
+        "minX": -12.125,
+        "maxX": 12.125,
+        "minY": -12.125,
+        "maxY": 12.125
+      }
+    },
+    {
+      "sampleName": "sample032",
+      "sourceFile": "circuits/sample032/sample032.circuit.simple-route.json",
+      "connectionCount": 23,
+      "obstacleCount": 104,
+      "bounds": {
+        "minX": -6.58,
+        "maxX": 6.58,
+        "minY": -6.58,
+        "maxY": 6.58
+      }
+    },
+    {
+      "sampleName": "sample033",
+      "sourceFile": "circuits/sample033/sample033.circuit.simple-route.json",
+      "connectionCount": 32,
+      "obstacleCount": 132,
+      "bounds": {
+        "minX": -6.98,
+        "maxX": 6.98,
+        "minY": -6.98,
+        "maxY": 6.98
+      }
+    },
+    {
+      "sampleName": "sample034",
+      "sourceFile": "circuits/sample034/sample034.circuit.simple-route.json",
+      "connectionCount": 45,
+      "obstacleCount": 166,
+      "bounds": {
+        "minX": -9.325,
+        "maxX": 9.325,
+        "minY": -9.325,
+        "maxY": 9.325
+      }
+    },
+    {
+      "sampleName": "sample035",
+      "sourceFile": "circuits/sample035/sample035.circuit.simple-route.json",
+      "connectionCount": 58,
+      "obstacleCount": 202,
+      "bounds": {
+        "minX": -11.425,
+        "maxX": 11.425,
+        "minY": -11.425,
+        "maxY": 11.425
+      }
+    },
+    {
+      "sampleName": "sample036",
+      "sourceFile": "circuits/sample036/sample036.circuit.simple-route.json",
+      "connectionCount": 30,
+      "obstacleCount": 66,
+      "bounds": {
+        "minX": -6.525,
+        "maxX": 6.525,
+        "minY": -6.525,
+        "maxY": 6.525
+      }
+    },
+    {
+      "sampleName": "sample037",
+      "sourceFile": "circuits/sample037/sample037.circuit.simple-route.json",
+      "connectionCount": 42,
+      "obstacleCount": 91,
+      "bounds": {
+        "minX": -8.625,
+        "maxX": 8.625,
+        "minY": -8.625,
+        "maxY": 8.625
+      }
+    },
+    {
+      "sampleName": "sample038",
+      "sourceFile": "circuits/sample038/sample038.circuit.simple-route.json",
+      "connectionCount": 56,
+      "obstacleCount": 120,
+      "bounds": {
+        "minX": -10.725,
+        "maxX": 10.725,
+        "minY": -10.725,
+        "maxY": 10.725
+      }
+    },
+    {
+      "sampleName": "sample039",
+      "sourceFile": "circuits/sample039/sample039.circuit.simple-route.json",
+      "connectionCount": 48,
+      "obstacleCount": 129,
+      "bounds": {
+        "minX": -9.325,
+        "maxX": 9.325,
+        "minY": -9.325,
+        "maxY": 9.325
+      }
+    },
+    {
+      "sampleName": "sample040",
+      "sourceFile": "circuits/sample040/sample040.circuit.simple-route.json",
+      "connectionCount": 43,
+      "obstacleCount": 143,
+      "bounds": {
+        "minX": -8.625,
+        "maxX": 8.625,
+        "minY": -8.625,
+        "maxY": 8.625
+      }
+    },
+    {
+      "sampleName": "sample041",
+      "sourceFile": "circuits/sample041/sample041.circuit.simple-route.json",
+      "connectionCount": 56,
+      "obstacleCount": 177,
+      "bounds": {
+        "minX": -10.725,
+        "maxX": 10.725,
+        "minY": -10.725,
+        "maxY": 10.725
+      }
+    },
+    {
+      "sampleName": "sample042",
+      "sourceFile": "circuits/sample042/sample042.circuit.simple-route.json",
+      "connectionCount": 69,
+      "obstacleCount": 213,
+      "bounds": {
+        "minX": -13.525,
+        "maxX": 13.525,
+        "minY": -13.525,
+        "maxY": 13.525
+      }
+    },
+    {
+      "sampleName": "sample043",
+      "sourceFile": "circuits/sample043/sample043.circuit.simple-route.json",
+      "connectionCount": 16,
+      "obstacleCount": 52,
+      "bounds": {
+        "minX": -5.38,
+        "maxX": 5.38,
+        "minY": -5.38,
+        "maxY": 5.38
+      }
+    },
+    {
+      "sampleName": "sample044",
+      "sourceFile": "circuits/sample044/sample044.circuit.simple-route.json",
+      "connectionCount": 31,
+      "obstacleCount": 80,
+      "bounds": {
+        "minX": -6.525,
+        "maxX": 6.525,
+        "minY": -6.525,
+        "maxY": 6.525
+      }
+    },
+    {
+      "sampleName": "sample045",
+      "sourceFile": "circuits/sample045/sample045.circuit.simple-route.json",
+      "connectionCount": 49,
+      "obstacleCount": 113,
+      "bounds": {
+        "minX": -10.025,
+        "maxX": 10.025,
+        "minY": -10.025,
+        "maxY": 10.025
+      }
+    },
+    {
+      "sampleName": "sample046",
+      "sourceFile": "circuits/sample046/sample046.circuit.simple-route.json",
+      "connectionCount": 73,
+      "obstacleCount": 154,
+      "bounds": {
+        "minX": -14.225,
+        "maxX": 14.225,
+        "minY": -14.225,
+        "maxY": 14.225
+      }
+    },
+    {
+      "sampleName": "sample047",
+      "sourceFile": "circuits/sample047/sample047.circuit.simple-route.json",
+      "connectionCount": 54,
+      "obstacleCount": 154,
+      "bounds": {
+        "minX": -10.725,
+        "maxX": 10.725,
+        "minY": -10.725,
+        "maxY": 10.725
+      }
+    },
+    {
+      "sampleName": "sample048",
+      "sourceFile": "circuits/sample048/sample048.circuit.simple-route.json",
+      "connectionCount": 67,
+      "obstacleCount": 188,
+      "bounds": {
+        "minX": -12.825,
+        "maxX": 12.825,
+        "minY": -12.825,
+        "maxY": 12.825
+      }
+    },
+    {
+      "sampleName": "sample049",
+      "sourceFile": "circuits/sample049/sample049.circuit.simple-route.json",
+      "connectionCount": 80,
+      "obstacleCount": 224,
+      "bounds": {
+        "minX": -14.925,
+        "maxX": 14.925,
+        "minY": -14.925,
+        "maxY": 14.925
+      }
+    },
+    {
+      "sampleName": "sample050",
+      "sourceFile": "circuits/sample050/sample050.circuit.simple-route.json",
+      "connectionCount": 23,
+      "obstacleCount": 59,
+      "bounds": {
+        "minX": -5.38,
+        "maxX": 5.38,
+        "minY": -5.38,
+        "maxY": 5.38
+      }
+    },
+    {
+      "sampleName": "sample051",
+      "sourceFile": "circuits/sample051/sample051.circuit.simple-route.json",
+      "connectionCount": 20,
+      "obstacleCount": 69,
+      "bounds": {
+        "minX": -5.78,
+        "maxX": 5.78,
+        "minY": -5.78,
+        "maxY": 5.78
+      }
+    },
+    {
+      "sampleName": "sample052",
+      "sourceFile": "circuits/sample052/sample052.circuit.simple-route.json",
+      "connectionCount": 42,
+      "obstacleCount": 106,
+      "bounds": {
+        "minX": -8.625,
+        "maxX": 8.625,
+        "minY": -8.625,
+        "maxY": 8.625
+      }
+    },
+    {
+      "sampleName": "sample053",
+      "sourceFile": "circuits/sample053/sample053.circuit.simple-route.json",
+      "connectionCount": 32,
+      "obstacleCount": 113,
+      "bounds": {
+        "minX": -6.58,
+        "maxX": 6.58,
+        "minY": -6.58,
+        "maxY": 6.58
+      }
+    },
+    {
+      "sampleName": "sample054",
+      "sourceFile": "circuits/sample054/sample054.circuit.simple-route.json",
+      "connectionCount": 65,
+      "obstacleCount": 165,
+      "bounds": {
+        "minX": -12.825,
+        "maxX": 12.825,
+        "minY": -12.825,
+        "maxY": 12.825
+      }
+    },
+    {
+      "sampleName": "sample055",
+      "sourceFile": "circuits/sample055/sample055.circuit.simple-route.json",
+      "connectionCount": 78,
+      "obstacleCount": 199,
+      "bounds": {
+        "minX": -14.925,
+        "maxX": 14.925,
+        "minY": -14.925,
+        "maxY": 14.925
+      }
+    },
+    {
+      "sampleName": "sample056",
+      "sourceFile": "circuits/sample056/sample056.circuit.simple-route.json",
+      "connectionCount": 91,
+      "obstacleCount": 235,
+      "bounds": {
+        "minX": -17.025,
+        "maxX": 17.025,
+        "minY": -17.025,
+        "maxY": 17.025
+      }
+    },
+    {
+      "sampleName": "sample057",
+      "sourceFile": "circuits/sample057/sample057.circuit.simple-route.json",
+      "connectionCount": 30,
+      "obstacleCount": 66,
+      "bounds": {
+        "minX": -6.525,
+        "maxX": 6.525,
+        "minY": -6.525,
+        "maxY": 6.525
+      }
+    },
+    {
+      "sampleName": "sample058",
+      "sourceFile": "circuits/sample058/sample058.circuit.simple-route.json",
+      "connectionCount": 43,
+      "obstacleCount": 92,
+      "bounds": {
+        "minX": -8.625,
+        "maxX": 8.625,
+        "minY": -8.625,
+        "maxY": 8.625
+      }
+    },
+    {
+      "sampleName": "sample059",
+      "sourceFile": "circuits/sample059/sample059.circuit.simple-route.json",
+      "connectionCount": 35,
+      "obstacleCount": 99,
+      "bounds": {
+        "minX": -7.225,
+        "maxX": 7.225,
+        "minY": -7.225,
+        "maxY": 7.225
+      }
+    },
+    {
+      "sampleName": "sample060",
+      "sourceFile": "circuits/sample060/sample060.circuit.simple-route.json",
+      "connectionCount": 57,
+      "obstacleCount": 138,
+      "bounds": {
+        "minX": -11.425,
+        "maxX": 11.425,
+        "minY": -11.425,
+        "maxY": 11.425
+      }
+    },
+    {
+      "sampleName": "sample061",
+      "sourceFile": "circuits/sample061/sample061.circuit.simple-route.json",
+      "connectionCount": 76,
+      "obstacleCount": 176,
+      "bounds": {
+        "minX": -14.225,
+        "maxX": 14.225,
+        "minY": -14.225,
+        "maxY": 14.225
+      }
+    },
+    {
+      "sampleName": "sample062",
+      "sourceFile": "circuits/sample062/sample062.circuit.simple-route.json",
+      "connectionCount": 89,
+      "obstacleCount": 210,
+      "bounds": {
+        "minX": -17.025,
+        "maxX": 17.025,
+        "minY": -17.025,
+        "maxY": 17.025
+      }
+    },
+    {
+      "sampleName": "sample063",
+      "sourceFile": "circuits/sample063/sample063.circuit.simple-route.json",
+      "connectionCount": 22,
+      "obstacleCount": 166,
+      "bounds": {
+        "minX": -7.78,
+        "maxX": 7.78,
+        "minY": -7.78,
+        "maxY": 7.78
+      }
+    },
+    {
+      "sampleName": "sample064",
+      "sourceFile": "circuits/sample064/sample064.circuit.simple-route.json",
+      "connectionCount": 16,
+      "obstacleCount": 52,
+      "bounds": {
+        "minX": -5.38,
+        "maxX": 5.38,
+        "minY": -5.38,
+        "maxY": 5.38
+      }
+    },
+    {
+      "sampleName": "sample065",
+      "sourceFile": "circuits/sample065/sample065.circuit.simple-route.json",
+      "connectionCount": 32,
+      "obstacleCount": 81,
+      "bounds": {
+        "minX": -6.525,
+        "maxX": 6.525,
+        "minY": -6.525,
+        "maxY": 6.525
+      }
+    },
+    {
+      "sampleName": "sample066",
+      "sourceFile": "circuits/sample066/sample066.circuit.simple-route.json",
+      "connectionCount": 28,
+      "obstacleCount": 92,
+      "bounds": {
+        "minX": -6.18,
+        "maxX": 6.18,
+        "minY": -6.18,
+        "maxY": 6.18
+      }
+    },
+    {
+      "sampleName": "sample067",
+      "sourceFile": "circuits/sample067/sample067.circuit.simple-route.json",
+      "connectionCount": 16,
+      "obstacleCount": 97,
+      "bounds": {
+        "minX": -6.58,
+        "maxX": 6.58,
+        "minY": -6.58,
+        "maxY": 6.58
+      }
+    },
+    {
+      "sampleName": "sample068",
+      "sourceFile": "circuits/sample068/sample068.circuit.simple-route.json",
+      "connectionCount": 87,
+      "obstacleCount": 187,
+      "bounds": {
+        "minX": -16.325,
+        "maxX": 16.325,
+        "minY": -16.325,
+        "maxY": 16.325
+      }
+    },
+    {
+      "sampleName": "sample069",
+      "sourceFile": "circuits/sample069/sample069.circuit.simple-route.json",
+      "connectionCount": 20,
+      "obstacleCount": 141,
+      "bounds": {
+        "minX": -7.38,
+        "maxX": 7.38,
+        "minY": -7.38,
+        "maxY": 7.38
+      }
+    },
+    {
+      "sampleName": "sample070",
+      "sourceFile": "circuits/sample070/sample070.circuit.simple-route.json",
+      "connectionCount": 33,
+      "obstacleCount": 177,
+      "bounds": {
+        "minX": -7.78,
+        "maxX": 7.78,
+        "minY": -7.78,
+        "maxY": 7.78
+      }
+    },
+    {
+      "sampleName": "sample071",
+      "sourceFile": "circuits/sample071/sample071.circuit.simple-route.json",
+      "connectionCount": 23,
+      "obstacleCount": 59,
+      "bounds": {
+        "minX": -5.38,
+        "maxX": 5.38,
+        "minY": -5.38,
+        "maxY": 5.38
+      }
+    },
+    {
+      "sampleName": "sample072",
+      "sourceFile": "circuits/sample072/sample072.circuit.simple-route.json",
+      "connectionCount": 21,
+      "obstacleCount": 70,
+      "bounds": {
+        "minX": -5.78,
+        "maxX": 5.78,
+        "minY": -5.78,
+        "maxY": 5.78
+      }
+    },
+    {
+      "sampleName": "sample073",
+      "sourceFile": "circuits/sample073/sample073.circuit.simple-route.json",
+      "connectionCount": 21,
+      "obstacleCount": 85,
+      "bounds": {
+        "minX": -6.18,
+        "maxX": 6.18,
+        "minY": -6.18,
+        "maxY": 6.18
+      }
+    },
+    {
+      "sampleName": "sample074",
+      "sourceFile": "circuits/sample074/sample074.circuit.simple-route.json",
+      "connectionCount": 41,
+      "obstacleCount": 122,
+      "bounds": {
+        "minX": -8.625,
+        "maxX": 8.625,
+        "minY": -8.625,
+        "maxY": 8.625
+      }
+    },
+    {
+      "sampleName": "sample075",
+      "sourceFile": "circuits/sample075/sample075.circuit.simple-route.json",
+      "connectionCount": 18,
+      "obstacleCount": 118,
+      "bounds": {
+        "minX": -6.98,
+        "maxX": 6.98,
+        "minY": -6.98,
+        "maxY": 6.98
+      }
+    },
+    {
+      "sampleName": "sample076",
+      "sourceFile": "circuits/sample076/sample076.circuit.simple-route.json",
+      "connectionCount": 31,
+      "obstacleCount": 152,
+      "bounds": {
+        "minX": -7.38,
+        "maxX": 7.38,
+        "minY": -7.38,
+        "maxY": 7.38
+      }
+    },
+    {
+      "sampleName": "sample077",
+      "sourceFile": "circuits/sample077/sample077.circuit.simple-route.json",
+      "connectionCount": 44,
+      "obstacleCount": 188,
+      "bounds": {
+        "minX": -8.625,
+        "maxX": 8.625,
+        "minY": -8.625,
+        "maxY": 8.625
+      }
+    },
+    {
+      "sampleName": "sample078",
+      "sourceFile": "circuits/sample078/sample078.circuit.simple-route.json",
+      "connectionCount": 30,
+      "obstacleCount": 66,
+      "bounds": {
+        "minX": -6.525,
+        "maxX": 6.525,
+        "minY": -6.525,
+        "maxY": 6.525
+      }
+    },
+    {
+      "sampleName": "sample079",
+      "sourceFile": "circuits/sample079/sample079.circuit.simple-route.json",
+      "connectionCount": 44,
+      "obstacleCount": 93,
+      "bounds": {
+        "minX": -8.625,
+        "maxX": 8.625,
+        "minY": -8.625,
+        "maxY": 8.625
+      }
+    },
+    {
+      "sampleName": "sample080",
+      "sourceFile": "circuits/sample080/sample080.circuit.simple-route.json",
+      "connectionCount": 63,
+      "obstacleCount": 127,
+      "bounds": {
+        "minX": -12.125,
+        "maxX": 12.125,
+        "minY": -12.125,
+        "maxY": 12.125
+      }
+    },
+    {
+      "sampleName": "sample081",
+      "sourceFile": "circuits/sample081/sample081.circuit.simple-route.json",
+      "connectionCount": 66,
+      "obstacleCount": 147,
+      "bounds": {
+        "minX": -12.825,
+        "maxX": 12.825,
+        "minY": -12.825,
+        "maxY": 12.825
+      }
+    },
+    {
+      "sampleName": "sample082",
+      "sourceFile": "circuits/sample082/sample082.circuit.simple-route.json",
+      "connectionCount": 29,
+      "obstacleCount": 129,
+      "bounds": {
+        "minX": -6.98,
+        "maxX": 6.98,
+        "minY": -6.98,
+        "maxY": 6.98
+      }
+    },
+    {
+      "sampleName": "sample083",
+      "sourceFile": "circuits/sample083/sample083.circuit.simple-route.json",
+      "connectionCount": 42,
+      "obstacleCount": 163,
+      "bounds": {
+        "minX": -8.625,
+        "maxX": 8.625,
+        "minY": -8.625,
+        "maxY": 8.625
+      }
+    },
+    {
+      "sampleName": "sample084",
+      "sourceFile": "circuits/sample084/sample084.circuit.simple-route.json",
+      "connectionCount": 55,
+      "obstacleCount": 199,
+      "bounds": {
+        "minX": -10.725,
+        "maxX": 10.725,
+        "minY": -10.725,
+        "maxY": 10.725
+      }
+    },
+    {
+      "sampleName": "sample085",
+      "sourceFile": "circuits/sample085/sample085.circuit.simple-route.json",
+      "connectionCount": 16,
+      "obstacleCount": 52,
+      "bounds": {
+        "minX": -5.38,
+        "maxX": 5.38,
+        "minY": -5.38,
+        "maxY": 5.38
+      }
+    },
+    {
+      "sampleName": "sample086",
+      "sourceFile": "circuits/sample086/sample086.circuit.simple-route.json",
+      "connectionCount": 33,
+      "obstacleCount": 82,
+      "bounds": {
+        "minX": -7.225,
+        "maxX": 7.225,
+        "minY": -7.225,
+        "maxY": 7.225
+      }
+    },
+    {
+      "sampleName": "sample087",
+      "sourceFile": "circuits/sample087/sample087.circuit.simple-route.json",
+      "connectionCount": 56,
+      "obstacleCount": 120,
+      "bounds": {
+        "minX": -10.725,
+        "maxX": 10.725,
+        "minY": -10.725,
+        "maxY": 10.725
+      }
+    },
+    {
+      "sampleName": "sample088",
+      "sourceFile": "circuits/sample088/sample088.circuit.simple-route.json",
+      "connectionCount": 25,
+      "obstacleCount": 106,
+      "bounds": {
+        "minX": -6.58,
+        "maxX": 6.58,
+        "minY": -6.58,
+        "maxY": 6.58
+      }
+    },
+    {
+      "sampleName": "sample089",
+      "sourceFile": "circuits/sample089/sample089.circuit.simple-route.json",
+      "connectionCount": 40,
+      "obstacleCount": 140,
+      "bounds": {
+        "minX": -7.925,
+        "maxX": 7.925,
+        "minY": -7.925,
+        "maxY": 7.925
+      }
+    },
+    {
+      "sampleName": "sample090",
+      "sourceFile": "circuits/sample090/sample090.circuit.simple-route.json",
+      "connectionCount": 53,
+      "obstacleCount": 174,
+      "bounds": {
+        "minX": -10.725,
+        "maxX": 10.725,
+        "minY": -10.725,
+        "maxY": 10.725
+      }
+    },
+    {
+      "sampleName": "sample091",
+      "sourceFile": "circuits/sample091/sample091.circuit.simple-route.json",
+      "connectionCount": 66,
+      "obstacleCount": 210,
+      "bounds": {
+        "minX": -12.825,
+        "maxX": 12.825,
+        "minY": -12.825,
+        "maxY": 12.825
+      }
+    },
+    {
+      "sampleName": "sample092",
+      "sourceFile": "circuits/sample092/sample092.circuit.simple-route.json",
+      "connectionCount": 23,
+      "obstacleCount": 59,
+      "bounds": {
+        "minX": -5.38,
+        "maxX": 5.38,
+        "minY": -5.38,
+        "maxY": 5.38
+      }
+    },
+    {
+      "sampleName": "sample093",
+      "sourceFile": "circuits/sample093/sample093.circuit.simple-route.json",
+      "connectionCount": 22,
+      "obstacleCount": 71,
+      "bounds": {
+        "minX": -5.78,
+        "maxX": 5.78,
+        "minY": -5.78,
+        "maxY": 5.78
+      }
+    },
+    {
+      "sampleName": "sample094",
+      "sourceFile": "circuits/sample094/sample094.circuit.simple-route.json",
+      "connectionCount": 49,
+      "obstacleCount": 113,
+      "bounds": {
+        "minX": -10.025,
+        "maxX": 10.025,
+        "minY": -10.025,
+        "maxY": 10.025
+      }
+    },
+    {
+      "sampleName": "sample095",
+      "sourceFile": "circuits/sample095/sample095.circuit.simple-route.json",
+      "connectionCount": 50,
+      "obstacleCount": 131,
+      "bounds": {
+        "minX": -10.025,
+        "maxX": 10.025,
+        "minY": -10.025,
+        "maxY": 10.025
+      }
+    },
+    {
+      "sampleName": "sample096",
+      "sourceFile": "circuits/sample096/sample096.circuit.simple-route.json",
+      "connectionCount": 51,
+      "obstacleCount": 151,
+      "bounds": {
+        "minX": -10.025,
+        "maxX": 10.025,
+        "minY": -10.025,
+        "maxY": 10.025
+      }
+    },
+    {
+      "sampleName": "sample097",
+      "sourceFile": "circuits/sample097/sample097.circuit.simple-route.json",
+      "connectionCount": 64,
+      "obstacleCount": 185,
+      "bounds": {
+        "minX": -12.125,
+        "maxX": 12.125,
+        "minY": -12.125,
+        "maxY": 12.125
+      }
+    },
+    {
+      "sampleName": "sample098",
+      "sourceFile": "circuits/sample098/sample098.circuit.simple-route.json",
+      "connectionCount": 77,
+      "obstacleCount": 221,
+      "bounds": {
+        "minX": -14.925,
+        "maxX": 14.925,
+        "minY": -14.925,
+        "maxY": 14.925
+      }
+    },
+    {
+      "sampleName": "sample099",
+      "sourceFile": "circuits/sample099/sample099.circuit.simple-route.json",
+      "connectionCount": 30,
+      "obstacleCount": 66,
+      "bounds": {
+        "minX": -6.525,
+        "maxX": 6.525,
+        "minY": -6.525,
+        "maxY": 6.525
+      }
+    },
+    {
+      "sampleName": "sample100",
+      "sourceFile": "circuits/sample100/sample100.circuit.simple-route.json",
+      "connectionCount": 45,
+      "obstacleCount": 94,
+      "bounds": {
+        "minX": -9.325,
+        "maxX": 9.325,
+        "minY": -9.325,
+        "maxY": 9.325
+      }
+    },
+    {
+      "sampleName": "sample101",
+      "sourceFile": "circuits/sample101/sample101.circuit.simple-route.json",
+      "connectionCount": 42,
+      "obstacleCount": 106,
+      "bounds": {
+        "minX": -8.625,
+        "maxX": 8.625,
+        "minY": -8.625,
+        "maxY": 8.625
+      }
+    },
+    {
+      "sampleName": "sample102",
+      "sourceFile": "circuits/sample102/sample102.circuit.simple-route.json",
+      "connectionCount": 75,
+      "obstacleCount": 156,
+      "bounds": {
+        "minX": -14.225,
+        "maxX": 14.225,
+        "minY": -14.225,
+        "maxY": 14.225
+      }
+    },
+    {
+      "sampleName": "sample103",
+      "sourceFile": "circuits/sample103/sample103.circuit.simple-route.json",
+      "connectionCount": 62,
+      "obstacleCount": 162,
+      "bounds": {
+        "minX": -12.125,
+        "maxX": 12.125,
+        "minY": -12.125,
+        "maxY": 12.125
+      }
+    },
+    {
+      "sampleName": "sample104",
+      "sourceFile": "circuits/sample104/sample104.circuit.simple-route.json",
+      "connectionCount": 75,
+      "obstacleCount": 196,
+      "bounds": {
+        "minX": -14.225,
+        "maxX": 14.225,
+        "minY": -14.225,
+        "maxY": 14.225
+      }
+    },
+    {
+      "sampleName": "sample105",
+      "sourceFile": "circuits/sample105/sample105.circuit.simple-route.json",
+      "connectionCount": 88,
+      "obstacleCount": 232,
+      "bounds": {
+        "minX": -16.325,
+        "maxX": 16.325,
+        "minY": -16.325,
+        "maxY": 16.325
+      }
+    },
+    {
+      "sampleName": "sample106",
+      "sourceFile": "circuits/sample106/sample106.circuit.simple-route.json",
+      "connectionCount": 16,
+      "obstacleCount": 52,
+      "bounds": {
+        "minX": -5.38,
+        "maxX": 5.38,
+        "minY": -5.38,
+        "maxY": 5.38
+      }
+    },
+    {
+      "sampleName": "sample107",
+      "sourceFile": "circuits/sample107/sample107.circuit.simple-route.json",
+      "connectionCount": 34,
+      "obstacleCount": 83,
+      "bounds": {
+        "minX": -7.225,
+        "maxX": 7.225,
+        "minY": -7.225,
+        "maxY": 7.225
+      }
+    },
+    {
+      "sampleName": "sample108",
+      "sourceFile": "circuits/sample108/sample108.circuit.simple-route.json",
+      "connectionCount": 35,
+      "obstacleCount": 99,
+      "bounds": {
+        "minX": -7.225,
+        "maxX": 7.225,
+        "minY": -7.225,
+        "maxY": 7.225
+      }
+    },
+    {
+      "sampleName": "sample109",
+      "sourceFile": "circuits/sample109/sample109.circuit.simple-route.json",
+      "connectionCount": 34,
+      "obstacleCount": 115,
+      "bounds": {
+        "minX": -7.225,
+        "maxX": 7.225,
+        "minY": -7.225,
+        "maxY": 7.225
+      }
+    },
+    {
+      "sampleName": "sample110",
+      "sourceFile": "circuits/sample110/sample110.circuit.simple-route.json",
+      "connectionCount": 73,
+      "obstacleCount": 173,
+      "bounds": {
+        "minX": -14.225,
+        "maxX": 14.225,
+        "minY": -14.225,
+        "maxY": 14.225
+      }
+    },
+    {
+      "sampleName": "sample111",
+      "sourceFile": "circuits/sample111/sample111.circuit.simple-route.json",
+      "connectionCount": 86,
+      "obstacleCount": 207,
+      "bounds": {
+        "minX": -16.325,
+        "maxX": 16.325,
+        "minY": -16.325,
+        "maxY": 16.325
+      }
+    },
+    {
+      "sampleName": "sample112",
+      "sourceFile": "circuits/sample112/sample112.circuit.simple-route.json",
+      "connectionCount": 19,
+      "obstacleCount": 163,
+      "bounds": {
+        "minX": -7.78,
+        "maxX": 7.78,
+        "minY": -7.78,
+        "maxY": 7.78
+      }
+    },
+    {
+      "sampleName": "sample113",
+      "sourceFile": "circuits/sample113/sample113.circuit.simple-route.json",
+      "connectionCount": 23,
+      "obstacleCount": 59,
+      "bounds": {
+        "minX": -5.38,
+        "maxX": 5.38,
+        "minY": -5.38,
+        "maxY": 5.38
+      }
+    },
+    {
+      "sampleName": "sample114",
+      "sourceFile": "circuits/sample114/sample114.circuit.simple-route.json",
+      "connectionCount": 23,
+      "obstacleCount": 72,
+      "bounds": {
+        "minX": -5.78,
+        "maxX": 5.78,
+        "minY": -5.78,
+        "maxY": 5.78
+      }
+    },
+    {
+      "sampleName": "sample115",
+      "sourceFile": "circuits/sample115/sample115.circuit.simple-route.json",
+      "connectionCount": 28,
+      "obstacleCount": 92,
+      "bounds": {
+        "minX": -6.18,
+        "maxX": 6.18,
+        "minY": -6.18,
+        "maxY": 6.18
+      }
+    },
+    {
+      "sampleName": "sample116",
+      "sourceFile": "circuits/sample116/sample116.circuit.simple-route.json",
+      "connectionCount": 59,
+      "obstacleCount": 140,
+      "bounds": {
+        "minX": -11.425,
+        "maxX": 11.425,
+        "minY": -11.425,
+        "maxY": 11.425
+      }
+    },
+    {
+      "sampleName": "sample117",
+      "sourceFile": "circuits/sample117/sample117.circuit.simple-route.json",
+      "connectionCount": 84,
+      "obstacleCount": 184,
+      "bounds": {
+        "minX": -15.625,
+        "maxX": 15.625,
+        "minY": -15.625,
+        "maxY": 15.625
+      }
+    },
+    {
+      "sampleName": "sample118",
+      "sourceFile": "circuits/sample118/sample118.circuit.simple-route.json",
+      "connectionCount": 17,
+      "obstacleCount": 138,
+      "bounds": {
+        "minX": -7.38,
+        "maxX": 7.38,
+        "minY": -7.38,
+        "maxY": 7.38
+      }
+    },
+    {
+      "sampleName": "sample119",
+      "sourceFile": "circuits/sample119/sample119.circuit.simple-route.json",
+      "connectionCount": 30,
+      "obstacleCount": 174,
+      "bounds": {
+        "minX": -7.78,
+        "maxX": 7.78,
+        "minY": -7.78,
+        "maxY": 7.78
+      }
+    },
+    {
+      "sampleName": "sample120",
+      "sourceFile": "circuits/sample120/sample120.circuit.simple-route.json",
+      "connectionCount": 30,
+      "obstacleCount": 66,
+      "bounds": {
+        "minX": -6.525,
+        "maxX": 6.525,
+        "minY": -6.525,
+        "maxY": 6.525
+      }
+    },
+    {
+      "sampleName": "sample121",
+      "sourceFile": "circuits/sample121/sample121.circuit.simple-route.json",
+      "connectionCount": 46,
+      "obstacleCount": 95,
+      "bounds": {
+        "minX": -9.325,
+        "maxX": 9.325,
+        "minY": -9.325,
+        "maxY": 9.325
+      }
+    },
+    {
+      "sampleName": "sample122",
+      "sourceFile": "circuits/sample122/sample122.circuit.simple-route.json",
+      "connectionCount": 21,
+      "obstacleCount": 85,
+      "bounds": {
+        "minX": -6.18,
+        "maxX": 6.18,
+        "minY": -6.18,
+        "maxY": 6.18
+      }
+    },
+    {
+      "sampleName": "sample123",
+      "sourceFile": "circuits/sample123/sample123.circuit.simple-route.json",
+      "connectionCount": 18,
+      "obstacleCount": 99,
+      "bounds": {
+        "minX": -6.58,
+        "maxX": 6.58,
+        "minY": -6.58,
+        "maxY": 6.58
+      }
+    },
+    {
+      "sampleName": "sample124",
+      "sourceFile": "circuits/sample124/sample124.circuit.simple-route.json",
+      "connectionCount": 95,
+      "obstacleCount": 195,
+      "bounds": {
+        "minX": -17.725,
+        "maxX": 17.725,
+        "minY": -17.725,
+        "maxY": 17.725
+      }
+    },
+    {
+      "sampleName": "sample125",
+      "sourceFile": "circuits/sample125/sample125.circuit.simple-route.json",
+      "connectionCount": 28,
+      "obstacleCount": 149,
+      "bounds": {
+        "minX": -7.38,
+        "maxX": 7.38,
+        "minY": -7.38,
+        "maxY": 7.38
+      }
+    },
+    {
+      "sampleName": "sample126",
+      "sourceFile": "circuits/sample126/sample126.circuit.simple-route.json",
+      "connectionCount": 41,
+      "obstacleCount": 185,
+      "bounds": {
+        "minX": -8.625,
+        "maxX": 8.625,
+        "minY": -8.625,
+        "maxY": 8.625
+      }
+    },
+    {
+      "sampleName": "sample127",
+      "sourceFile": "circuits/sample127/sample127.circuit.simple-route.json",
+      "connectionCount": 16,
+      "obstacleCount": 52,
+      "bounds": {
+        "minX": -5.38,
+        "maxX": 5.38,
+        "minY": -5.38,
+        "maxY": 5.38
+      }
+    },
+    {
+      "sampleName": "sample128",
+      "sourceFile": "circuits/sample128/sample128.circuit.simple-route.json",
+      "connectionCount": 35,
+      "obstacleCount": 84,
+      "bounds": {
+        "minX": -7.225,
+        "maxX": 7.225,
+        "minY": -7.225,
+        "maxY": 7.225
+      }
+    },
+    {
+      "sampleName": "sample129",
+      "sourceFile": "circuits/sample129/sample129.circuit.simple-route.json",
+      "connectionCount": 63,
+      "obstacleCount": 127,
+      "bounds": {
+        "minX": -12.125,
+        "maxX": 12.125,
+        "minY": -12.125,
+        "maxY": 12.125
+      }
+    },
+    {
+      "sampleName": "sample130",
+      "sourceFile": "circuits/sample130/sample130.circuit.simple-route.json",
+      "connectionCount": 43,
+      "obstacleCount": 124,
+      "bounds": {
+        "minX": -8.625,
+        "maxX": 8.625,
+        "minY": -8.625,
+        "maxY": 8.625
+      }
+    },
+    {
+      "sampleName": "sample131",
+      "sourceFile": "circuits/sample131/sample131.circuit.simple-route.json",
+      "connectionCount": 26,
+      "obstacleCount": 126,
+      "bounds": {
+        "minX": -6.98,
+        "maxX": 6.98,
+        "minY": -6.98,
+        "maxY": 6.98
+      }
+    },
+    {
+      "sampleName": "sample132",
+      "sourceFile": "circuits/sample132/sample132.circuit.simple-route.json",
+      "connectionCount": 39,
+      "obstacleCount": 160,
+      "bounds": {
+        "minX": -7.925,
+        "maxX": 7.925,
+        "minY": -7.925,
+        "maxY": 7.925
+      }
+    },
+    {
+      "sampleName": "sample133",
+      "sourceFile": "circuits/sample133/sample133.circuit.simple-route.json",
+      "connectionCount": 52,
+      "obstacleCount": 196,
+      "bounds": {
+        "minX": -10.025,
+        "maxX": 10.025,
+        "minY": -10.025,
+        "maxY": 10.025
+      }
+    },
+    {
+      "sampleName": "sample134",
+      "sourceFile": "circuits/sample134/sample134.circuit.simple-route.json",
+      "connectionCount": 23,
+      "obstacleCount": 59,
+      "bounds": {
+        "minX": -5.38,
+        "maxX": 5.38,
+        "minY": -5.38,
+        "maxY": 5.38
+      }
+    },
+    {
+      "sampleName": "sample135",
+      "sourceFile": "circuits/sample135/sample135.circuit.simple-route.json",
+      "connectionCount": 24,
+      "obstacleCount": 73,
+      "bounds": {
+        "minX": -5.78,
+        "maxX": 5.78,
+        "minY": -5.78,
+        "maxY": 5.78
+      }
+    },
+    {
+      "sampleName": "sample136",
+      "sourceFile": "circuits/sample136/sample136.circuit.simple-route.json",
+      "connectionCount": 56,
+      "obstacleCount": 120,
+      "bounds": {
+        "minX": -10.725,
+        "maxX": 10.725,
+        "minY": -10.725,
+        "maxY": 10.725
+      }
+    },
+    {
+      "sampleName": "sample137",
+      "sourceFile": "circuits/sample137/sample137.circuit.simple-route.json",
+      "connectionCount": 68,
+      "obstacleCount": 149,
+      "bounds": {
+        "minX": -12.825,
+        "maxX": 12.825,
+        "minY": -12.825,
+        "maxY": 12.825
+      }
+    },
+    {
+      "sampleName": "sample138",
+      "sourceFile": "circuits/sample138/sample138.circuit.simple-route.json",
+      "connectionCount": 37,
+      "obstacleCount": 137,
+      "bounds": {
+        "minX": -7.925,
+        "maxX": 7.925,
+        "minY": -7.925,
+        "maxY": 7.925
+      }
+    },
+    {
+      "sampleName": "sample139",
+      "sourceFile": "circuits/sample139/sample139.circuit.simple-route.json",
+      "connectionCount": 50,
+      "obstacleCount": 171,
+      "bounds": {
+        "minX": -10.025,
+        "maxX": 10.025,
+        "minY": -10.025,
+        "maxY": 10.025
+      }
+    },
+    {
+      "sampleName": "sample140",
+      "sourceFile": "circuits/sample140/sample140.circuit.simple-route.json",
+      "connectionCount": 63,
+      "obstacleCount": 207,
+      "bounds": {
+        "minX": -12.125,
+        "maxX": 12.125,
+        "minY": -12.125,
+        "maxY": 12.125
+      }
+    },
+    {
+      "sampleName": "sample141",
+      "sourceFile": "circuits/sample141/sample141.circuit.simple-route.json",
+      "connectionCount": 30,
+      "obstacleCount": 66,
+      "bounds": {
+        "minX": -6.525,
+        "maxX": 6.525,
+        "minY": -6.525,
+        "maxY": 6.525
+      }
+    },
+    {
+      "sampleName": "sample142",
+      "sourceFile": "circuits/sample142/sample142.circuit.simple-route.json",
+      "connectionCount": 47,
+      "obstacleCount": 96,
+      "bounds": {
+        "minX": -9.325,
+        "maxX": 9.325,
+        "minY": -9.325,
+        "maxY": 9.325
+      }
+    },
+    {
+      "sampleName": "sample143",
+      "sourceFile": "circuits/sample143/sample143.circuit.simple-route.json",
+      "connectionCount": 49,
+      "obstacleCount": 113,
+      "bounds": {
+        "minX": -10.025,
+        "maxX": 10.025,
+        "minY": -10.025,
+        "maxY": 10.025
+      }
+    },
+    {
+      "sampleName": "sample144",
+      "sourceFile": "circuits/sample144/sample144.circuit.simple-route.json",
+      "connectionCount": 27,
+      "obstacleCount": 108,
+      "bounds": {
+        "minX": -6.58,
+        "maxX": 6.58,
+        "minY": -6.58,
+        "maxY": 6.58
+      }
+    },
+    {
+      "sampleName": "sample145",
+      "sourceFile": "circuits/sample145/sample145.circuit.simple-route.json",
+      "connectionCount": 48,
+      "obstacleCount": 148,
+      "bounds": {
+        "minX": -9.325,
+        "maxX": 9.325,
+        "minY": -9.325,
+        "maxY": 9.325
+      }
+    },
+    {
+      "sampleName": "sample146",
+      "sourceFile": "circuits/sample146/sample146.circuit.simple-route.json",
+      "connectionCount": 61,
+      "obstacleCount": 182,
+      "bounds": {
+        "minX": -12.125,
+        "maxX": 12.125,
+        "minY": -12.125,
+        "maxY": 12.125
+      }
+    },
+    {
+      "sampleName": "sample147",
+      "sourceFile": "circuits/sample147/sample147.circuit.simple-route.json",
+      "connectionCount": 74,
+      "obstacleCount": 218,
+      "bounds": {
+        "minX": -14.225,
+        "maxX": 14.225,
+        "minY": -14.225,
+        "maxY": 14.225
+      }
+    },
+    {
+      "sampleName": "sample148",
+      "sourceFile": "circuits/sample148/sample148.circuit.simple-route.json",
+      "connectionCount": 16,
+      "obstacleCount": 52,
+      "bounds": {
+        "minX": -5.38,
+        "maxX": 5.38,
+        "minY": -5.38,
+        "maxY": 5.38
+      }
+    },
+    {
+      "sampleName": "sample149",
+      "sourceFile": "circuits/sample149/sample149.circuit.simple-route.json",
+      "connectionCount": 36,
+      "obstacleCount": 85,
+      "bounds": {
+        "minX": -7.225,
+        "maxX": 7.225,
+        "minY": -7.225,
+        "maxY": 7.225
+      }
+    },
+    {
+      "sampleName": "sample150",
+      "sourceFile": "circuits/sample150/sample150.circuit.simple-route.json",
+      "connectionCount": 42,
+      "obstacleCount": 106,
+      "bounds": {
+        "minX": -8.625,
+        "maxX": 8.625,
+        "minY": -8.625,
+        "maxY": 8.625
+      }
+    },
+    {
+      "sampleName": "sample151",
+      "sourceFile": "circuits/sample151/sample151.circuit.simple-route.json",
+      "connectionCount": 52,
+      "obstacleCount": 133,
+      "bounds": {
+        "minX": -10.025,
+        "maxX": 10.025,
+        "minY": -10.025,
+        "maxY": 10.025
+      }
+    },
+    {
+      "sampleName": "sample152",
+      "sourceFile": "circuits/sample152/sample152.circuit.simple-route.json",
+      "connectionCount": 59,
+      "obstacleCount": 159,
+      "bounds": {
+        "minX": -11.425,
+        "maxX": 11.425,
+        "minY": -11.425,
+        "maxY": 11.425
+      }
+    },
+    {
+      "sampleName": "sample153",
+      "sourceFile": "circuits/sample153/sample153.circuit.simple-route.json",
+      "connectionCount": 72,
+      "obstacleCount": 193,
+      "bounds": {
+        "minX": -13.525,
+        "maxX": 13.525,
+        "minY": -13.525,
+        "maxY": 13.525
+      }
+    },
+    {
+      "sampleName": "sample154",
+      "sourceFile": "circuits/sample154/sample154.circuit.simple-route.json",
+      "connectionCount": 85,
+      "obstacleCount": 229,
+      "bounds": {
+        "minX": -16.325,
+        "maxX": 16.325,
+        "minY": -16.325,
+        "maxY": 16.325
+      }
+    },
+    {
+      "sampleName": "sample155",
+      "sourceFile": "circuits/sample155/sample155.circuit.simple-route.json",
+      "connectionCount": 23,
+      "obstacleCount": 59,
+      "bounds": {
+        "minX": -5.38,
+        "maxX": 5.38,
+        "minY": -5.38,
+        "maxY": 5.38
+      }
+    },
+    {
+      "sampleName": "sample156",
+      "sourceFile": "circuits/sample156/sample156.circuit.simple-route.json",
+      "connectionCount": 25,
+      "obstacleCount": 74,
+      "bounds": {
+        "minX": -5.825,
+        "maxX": 5.825,
+        "minY": -5.825,
+        "maxY": 5.825
+      }
+    },
+    {
+      "sampleName": "sample157",
+      "sourceFile": "circuits/sample157/sample157.circuit.simple-route.json",
+      "connectionCount": 35,
+      "obstacleCount": 99,
+      "bounds": {
+        "minX": -7.225,
+        "maxX": 7.225,
+        "minY": -7.225,
+        "maxY": 7.225
+      }
+    },
+    {
+      "sampleName": "sample158",
+      "sourceFile": "circuits/sample158/sample158.circuit.simple-route.json",
+      "connectionCount": 77,
+      "obstacleCount": 158,
+      "bounds": {
+        "minX": -14.925,
+        "maxX": 14.925,
+        "minY": -14.925,
+        "maxY": 14.925
+      }
+    },
+    {
+      "sampleName": "sample159",
+      "sourceFile": "circuits/sample159/sample159.circuit.simple-route.json",
+      "connectionCount": 70,
+      "obstacleCount": 170,
+      "bounds": {
+        "minX": -13.525,
+        "maxX": 13.525,
+        "minY": -13.525,
+        "maxY": 13.525
+      }
+    },
+    {
+      "sampleName": "sample160",
+      "sourceFile": "circuits/sample160/sample160.circuit.simple-route.json",
+      "connectionCount": 83,
+      "obstacleCount": 204,
+      "bounds": {
+        "minX": -15.625,
+        "maxX": 15.625,
+        "minY": -15.625,
+        "maxY": 15.625
+      }
+    },
+    {
+      "sampleName": "sample161",
+      "sourceFile": "circuits/sample161/sample161.circuit.simple-route.json",
+      "connectionCount": 16,
+      "obstacleCount": 160,
+      "bounds": {
+        "minX": -7.78,
+        "maxX": 7.78,
+        "minY": -7.78,
+        "maxY": 7.78
+      }
+    },
+    {
+      "sampleName": "sample162",
+      "sourceFile": "circuits/sample162/sample162.circuit.simple-route.json",
+      "connectionCount": 30,
+      "obstacleCount": 66,
+      "bounds": {
+        "minX": -6.525,
+        "maxX": 6.525,
+        "minY": -6.525,
+        "maxY": 6.525
+      }
+    },
+    {
+      "sampleName": "sample163",
+      "sourceFile": "circuits/sample163/sample163.circuit.simple-route.json",
+      "connectionCount": 48,
+      "obstacleCount": 97,
+      "bounds": {
+        "minX": -9.325,
+        "maxX": 9.325,
+        "minY": -9.325,
+        "maxY": 9.325
+      }
+    },
+    {
+      "sampleName": "sample164",
+      "sourceFile": "circuits/sample164/sample164.circuit.simple-route.json",
+      "connectionCount": 28,
+      "obstacleCount": 92,
+      "bounds": {
+        "minX": -6.18,
+        "maxX": 6.18,
+        "minY": -6.18,
+        "maxY": 6.18
+      }
+    },
+    {
+      "sampleName": "sample165",
+      "sourceFile": "circuits/sample165/sample165.circuit.simple-route.json",
+      "connectionCount": 36,
+      "obstacleCount": 117,
+      "bounds": {
+        "minX": -7.225,
+        "maxX": 7.225,
+        "minY": -7.225,
+        "maxY": 7.225
+      }
+    },
+    {
+      "sampleName": "sample166",
+      "sourceFile": "circuits/sample166/sample166.circuit.simple-route.json",
+      "connectionCount": 81,
+      "obstacleCount": 181,
+      "bounds": {
+        "minX": -15.625,
+        "maxX": 15.625,
+        "minY": -15.625,
+        "maxY": 15.625
+      }
+    },
+    {
+      "sampleName": "sample167",
+      "sourceFile": "circuits/sample167/sample167.circuit.simple-route.json",
+      "connectionCount": 94,
+      "obstacleCount": 215,
+      "bounds": {
+        "minX": -17.725,
+        "maxX": 17.725,
+        "minY": -17.725,
+        "maxY": 17.725
+      }
+    },
+    {
+      "sampleName": "sample168",
+      "sourceFile": "circuits/sample168/sample168.circuit.simple-route.json",
+      "connectionCount": 27,
+      "obstacleCount": 171,
+      "bounds": {
+        "minX": -7.78,
+        "maxX": 7.78,
+        "minY": -7.78,
+        "maxY": 7.78
+      }
+    },
+    {
+      "sampleName": "sample169",
+      "sourceFile": "circuits/sample169/sample169.circuit.simple-route.json",
+      "connectionCount": 16,
+      "obstacleCount": 52,
+      "bounds": {
+        "minX": -5.38,
+        "maxX": 5.38,
+        "minY": -5.38,
+        "maxY": 5.38
+      }
+    },
+    {
+      "sampleName": "sample170",
+      "sourceFile": "circuits/sample170/sample170.circuit.simple-route.json",
+      "connectionCount": 37,
+      "obstacleCount": 86,
+      "bounds": {
+        "minX": -7.925,
+        "maxX": 7.925,
+        "minY": -7.925,
+        "maxY": 7.925
+      }
+    },
+    {
+      "sampleName": "sample171",
+      "sourceFile": "circuits/sample171/sample171.circuit.simple-route.json",
+      "connectionCount": 21,
+      "obstacleCount": 85,
+      "bounds": {
+        "minX": -6.18,
+        "maxX": 6.18,
+        "minY": -6.18,
+        "maxY": 6.18
+      }
+    },
+    {
+      "sampleName": "sample172",
+      "sourceFile": "circuits/sample172/sample172.circuit.simple-route.json",
+      "connectionCount": 61,
+      "obstacleCount": 142,
+      "bounds": {
+        "minX": -12.125,
+        "maxX": 12.125,
+        "minY": -12.125,
+        "maxY": 12.125
+      }
+    },
+    {
+      "sampleName": "sample173",
+      "sourceFile": "circuits/sample173/sample173.circuit.simple-route.json",
+      "connectionCount": 92,
+      "obstacleCount": 192,
+      "bounds": {
+        "minX": -17.025,
+        "maxX": 17.025,
+        "minY": -17.025,
+        "maxY": 17.025
+      }
+    },
+    {
+      "sampleName": "sample174",
+      "sourceFile": "circuits/sample174/sample174.circuit.simple-route.json",
+      "connectionCount": 25,
+      "obstacleCount": 146,
+      "bounds": {
+        "minX": -7.38,
+        "maxX": 7.38,
+        "minY": -7.38,
+        "maxY": 7.38
+      }
+    },
+    {
+      "sampleName": "sample175",
+      "sourceFile": "circuits/sample175/sample175.circuit.simple-route.json",
+      "connectionCount": 38,
+      "obstacleCount": 182,
+      "bounds": {
+        "minX": -7.925,
+        "maxX": 7.925,
+        "minY": -7.925,
+        "maxY": 7.925
+      }
+    },
+    {
+      "sampleName": "sample176",
+      "sourceFile": "circuits/sample176/sample176.circuit.simple-route.json",
+      "connectionCount": 23,
+      "obstacleCount": 59,
+      "bounds": {
+        "minX": -5.38,
+        "maxX": 5.38,
+        "minY": -5.38,
+        "maxY": 5.38
+      }
+    },
+    {
+      "sampleName": "sample177",
+      "sourceFile": "circuits/sample177/sample177.circuit.simple-route.json",
+      "connectionCount": 26,
+      "obstacleCount": 75,
+      "bounds": {
+        "minX": -5.825,
+        "maxX": 5.825,
+        "minY": -5.825,
+        "maxY": 5.825
+      }
+    },
+    {
+      "sampleName": "sample178",
+      "sourceFile": "circuits/sample178/sample178.circuit.simple-route.json",
+      "connectionCount": 63,
+      "obstacleCount": 127,
+      "bounds": {
+        "minX": -12.125,
+        "maxX": 12.125,
+        "minY": -12.125,
+        "maxY": 12.125
+      }
+    },
+    {
+      "sampleName": "sample179",
+      "sourceFile": "circuits/sample179/sample179.circuit.simple-route.json",
+      "connectionCount": 20,
+      "obstacleCount": 101,
+      "bounds": {
+        "minX": -6.58,
+        "maxX": 6.58,
+        "minY": -6.58,
+        "maxY": 6.58
+      }
+    },
+    {
+      "sampleName": "sample180",
+      "sourceFile": "circuits/sample180/sample180.circuit.simple-route.json",
+      "connectionCount": 23,
+      "obstacleCount": 123,
+      "bounds": {
+        "minX": -6.98,
+        "maxX": 6.98,
+        "minY": -6.98,
+        "maxY": 6.98
+      }
+    },
+    {
+      "sampleName": "sample181",
+      "sourceFile": "circuits/sample181/sample181.circuit.simple-route.json",
+      "connectionCount": 36,
+      "obstacleCount": 157,
+      "bounds": {
+        "minX": -7.38,
+        "maxX": 7.38,
+        "minY": -7.38,
+        "maxY": 7.38
+      }
+    },
+    {
+      "sampleName": "sample182",
+      "sourceFile": "circuits/sample182/sample182.circuit.simple-route.json",
+      "connectionCount": 49,
+      "obstacleCount": 193,
+      "bounds": {
+        "minX": -10.025,
+        "maxX": 10.025,
+        "minY": -10.025,
+        "maxY": 10.025
+      }
+    },
+    {
+      "sampleName": "sample183",
+      "sourceFile": "circuits/sample183/sample183.circuit.simple-route.json",
+      "connectionCount": 30,
+      "obstacleCount": 66,
+      "bounds": {
+        "minX": -6.525,
+        "maxX": 6.525,
+        "minY": -6.525,
+        "maxY": 6.525
+      }
+    },
+    {
+      "sampleName": "sample184",
+      "sourceFile": "circuits/sample184/sample184.circuit.simple-route.json",
+      "connectionCount": 49,
+      "obstacleCount": 98,
+      "bounds": {
+        "minX": -10.025,
+        "maxX": 10.025,
+        "minY": -10.025,
+        "maxY": 10.025
+      }
+    },
+    {
+      "sampleName": "sample185",
+      "sourceFile": "circuits/sample185/sample185.circuit.simple-route.json",
+      "connectionCount": 56,
+      "obstacleCount": 120,
+      "bounds": {
+        "minX": -10.725,
+        "maxX": 10.725,
+        "minY": -10.725,
+        "maxY": 10.725
+      }
+    },
+    {
+      "sampleName": "sample186",
+      "sourceFile": "circuits/sample186/sample186.circuit.simple-route.json",
+      "connectionCount": 45,
+      "obstacleCount": 126,
+      "bounds": {
+        "minX": -9.325,
+        "maxX": 9.325,
+        "minY": -9.325,
+        "maxY": 9.325
+      }
+    },
+    {
+      "sampleName": "sample187",
+      "sourceFile": "circuits/sample187/sample187.circuit.simple-route.json",
+      "connectionCount": 34,
+      "obstacleCount": 134,
+      "bounds": {
+        "minX": -7.225,
+        "maxX": 7.225,
+        "minY": -7.225,
+        "maxY": 7.225
+      }
+    },
+    {
+      "sampleName": "sample188",
+      "sourceFile": "circuits/sample188/sample188.circuit.simple-route.json",
+      "connectionCount": 47,
+      "obstacleCount": 168,
+      "bounds": {
+        "minX": -9.325,
+        "maxX": 9.325,
+        "minY": -9.325,
+        "maxY": 9.325
+      }
+    },
+    {
+      "sampleName": "sample189",
+      "sourceFile": "circuits/sample189/sample189.circuit.simple-route.json",
+      "connectionCount": 60,
+      "obstacleCount": 204,
+      "bounds": {
+        "minX": -11.425,
+        "maxX": 11.425,
+        "minY": -11.425,
+        "maxY": 11.425
+      }
+    },
+    {
+      "sampleName": "sample190",
+      "sourceFile": "circuits/sample190/sample190.circuit.simple-route.json",
+      "connectionCount": 16,
+      "obstacleCount": 52,
+      "bounds": {
+        "minX": -5.38,
+        "maxX": 5.38,
+        "minY": -5.38,
+        "maxY": 5.38
+      }
+    },
+    {
+      "sampleName": "sample191",
+      "sourceFile": "circuits/sample191/sample191.circuit.simple-route.json",
+      "connectionCount": 38,
+      "obstacleCount": 87,
+      "bounds": {
+        "minX": -7.925,
+        "maxX": 7.925,
+        "minY": -7.925,
+        "maxY": 7.925
+      }
+    },
+    {
+      "sampleName": "sample192",
+      "sourceFile": "circuits/sample192/sample192.circuit.simple-route.json",
+      "connectionCount": 49,
+      "obstacleCount": 113,
+      "bounds": {
+        "minX": -10.025,
+        "maxX": 10.025,
+        "minY": -10.025,
+        "maxY": 10.025
+      }
+    },
+    {
+      "sampleName": "sample193",
+      "sourceFile": "circuits/sample193/sample193.circuit.simple-route.json",
+      "connectionCount": 70,
+      "obstacleCount": 151,
+      "bounds": {
+        "minX": -13.525,
+        "maxX": 13.525,
+        "minY": -13.525,
+        "maxY": 13.525
+      }
+    },
+    {
+      "sampleName": "sample194",
+      "sourceFile": "circuits/sample194/sample194.circuit.simple-route.json",
+      "connectionCount": 45,
+      "obstacleCount": 145,
+      "bounds": {
+        "minX": -9.325,
+        "maxX": 9.325,
+        "minY": -9.325,
+        "maxY": 9.325
+      }
+    },
+    {
+      "sampleName": "sample195",
+      "sourceFile": "circuits/sample195/sample195.circuit.simple-route.json",
+      "connectionCount": 58,
+      "obstacleCount": 179,
+      "bounds": {
+        "minX": -11.425,
+        "maxX": 11.425,
+        "minY": -11.425,
+        "maxY": 11.425
+      }
+    },
+    {
+      "sampleName": "sample196",
+      "sourceFile": "circuits/sample196/sample196.circuit.simple-route.json",
+      "connectionCount": 71,
+      "obstacleCount": 215,
+      "bounds": {
+        "minX": -13.525,
+        "maxX": 13.525,
+        "minY": -13.525,
+        "maxY": 13.525
+      }
+    },
+    {
+      "sampleName": "sample197",
+      "sourceFile": "circuits/sample197/sample197.circuit.simple-route.json",
+      "connectionCount": 23,
+      "obstacleCount": 59,
+      "bounds": {
+        "minX": -5.38,
+        "maxX": 5.38,
+        "minY": -5.38,
+        "maxY": 5.38
+      }
+    },
+    {
+      "sampleName": "sample198",
+      "sourceFile": "circuits/sample198/sample198.circuit.simple-route.json",
+      "connectionCount": 27,
+      "obstacleCount": 76,
+      "bounds": {
+        "minX": -5.825,
+        "maxX": 5.825,
+        "minY": -5.825,
+        "maxY": 5.825
+      }
+    },
+    {
+      "sampleName": "sample199",
+      "sourceFile": "circuits/sample199/sample199.circuit.simple-route.json",
+      "connectionCount": 42,
+      "obstacleCount": 106,
+      "bounds": {
+        "minX": -8.625,
+        "maxX": 8.625,
+        "minY": -8.625,
+        "maxY": 8.625
+      }
+    },
+    {
+      "sampleName": "sample200",
+      "sourceFile": "circuits/sample200/sample200.circuit.simple-route.json",
+      "connectionCount": 29,
+      "obstacleCount": 110,
+      "bounds": {
+        "minX": -6.58,
+        "maxX": 6.58,
+        "minY": -6.58,
+        "maxY": 6.58
       }
     }
   ]

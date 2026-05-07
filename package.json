@@ -1,7 +1,7 @@
 {
   "name": "@tsci/tscircuit.dataset-srj16-bga-breakouts",
   "version": "1.0.0",
-  "description": "A tscircuit component package",
+  "description": "BGA breakout simple-route JSON dataset with edge fanout pads",
   "main": "index.js",
   "types": "index.d.ts",
   "files": [
@@ -19,7 +19,6 @@
   ],
   "scripts": {
     "build": "tsci build circuits/sample001/sample001.circuit.tsx",
-    "build:all": "tsci build circuits/sample001/sample001.circuit.tsx && tsci build circuits/sample002/sample002.circuit.tsx && tsci build circuits/sample003/sample003.circuit.tsx && tsci build circuits/sample004/sample004.circuit.tsx && tsci build circuits/sample005/sample005.circuit.tsx && tsci build circuits/sample006/sample006.circuit.tsx && tsci build circuits/sample007/sample007.circuit.tsx && tsci build circuits/sample008/sample008.circuit.tsx && tsci build circuits/sample009/sample009.circuit.tsx && tsci build circuits/sample010/sample010.circuit.tsx",
     "snapshot": "tsci snapshot circuits/sample001/sample001.circuit.tsx",
     "snapshot:update": "tsci snapshot circuits/sample001/sample001.circuit.tsx --update",
     "build:dataset-dist": "bun scripts/build-dataset-dist.mjs",
