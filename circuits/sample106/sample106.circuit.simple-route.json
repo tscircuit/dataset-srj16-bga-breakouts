@@ -7,6 +7,7 @@
   "obstacles": [
     {
       "obstacleId": "pcb_smtpad_bga_pin_036",
+      "componentId": "BGA",
       "type": "rect",
       "layers": [
         "top"
@@ -25,6 +26,7 @@
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_033",
+      "componentId": "BGA",
       "type": "rect",
       "layers": [
         "top"
@@ -43,6 +45,7 @@
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_001",
+      "componentId": "BGA",
       "type": "rect",
       "layers": [
         "top"
@@ -61,6 +64,7 @@
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_003",
+      "componentId": "BGA",
       "type": "rect",
       "layers": [
         "top"
@@ -79,6 +83,7 @@
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_028",
+      "componentId": "BGA",
       "type": "rect",
       "layers": [
         "top"
@@ -97,6 +102,7 @@
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_017",
+      "componentId": "BGA",
       "type": "rect",
       "layers": [
         "top"
@@ -115,6 +121,7 @@
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_012",
+      "componentId": "BGA",
       "type": "rect",
       "layers": [
         "top"
@@ -133,6 +140,7 @@
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_011",
+      "componentId": "BGA",
       "type": "rect",
       "layers": [
         "top"
@@ -151,6 +159,7 @@
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_002",
+      "componentId": "BGA",
       "type": "rect",
       "layers": [
         "top"
@@ -169,6 +178,7 @@
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_018",
+      "componentId": "BGA",
       "type": "rect",
       "layers": [
         "top"
@@ -187,6 +197,7 @@
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_021",
+      "componentId": "BGA",
       "type": "rect",
       "layers": [
         "top"
@@ -205,6 +216,7 @@
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_029",
+      "componentId": "BGA",
       "type": "rect",
       "layers": [
         "top"
@@ -223,6 +235,7 @@
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_005",
+      "componentId": "BGA",
       "type": "rect",
       "layers": [
         "top"
@@ -241,6 +254,7 @@
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_035",
+      "componentId": "BGA",
       "type": "rect",
       "layers": [
         "top"
@@ -259,6 +273,7 @@
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_023",
+      "componentId": "BGA",
       "type": "rect",
       "layers": [
         "top"
@@ -277,6 +292,7 @@
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_030",
+      "componentId": "BGA",
       "type": "rect",
       "layers": [
         "top"
@@ -295,6 +311,7 @@
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_013",
+      "componentId": "BGA",
       "type": "rect",
       "layers": [
         "top"
@@ -313,6 +330,7 @@
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_027",
+      "componentId": "BGA",
       "type": "rect",
       "layers": [
         "top"
@@ -331,6 +349,7 @@
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_015",
+      "componentId": "BGA",
       "type": "rect",
       "layers": [
         "top"
@@ -349,6 +368,7 @@
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_031",
+      "componentId": "BGA",
       "type": "rect",
       "layers": [
         "top"
@@ -367,6 +387,7 @@
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_004",
+      "componentId": "BGA",
       "type": "rect",
       "layers": [
         "top"
@@ -385,6 +406,7 @@
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_007",
+      "componentId": "BGA",
       "type": "rect",
       "layers": [
         "top"
@@ -403,6 +425,7 @@
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_026",
+      "componentId": "BGA",
       "type": "rect",
       "layers": [
         "top"
@@ -421,6 +444,7 @@
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_008",
+      "componentId": "BGA",
       "type": "rect",
       "layers": [
         "top"
@@ -439,6 +463,7 @@
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_032",
+      "componentId": "BGA",
       "type": "rect",
       "layers": [
         "top"
@@ -457,6 +482,7 @@
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_025",
+      "componentId": "BGA",
       "type": "rect",
       "layers": [
         "top"
@@ -475,6 +501,7 @@
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_022",
+      "componentId": "BGA",
       "type": "rect",
       "layers": [
         "top"
@@ -493,6 +520,7 @@
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_006",
+      "componentId": "BGA",
       "type": "rect",
       "layers": [
         "top"
@@ -511,6 +539,7 @@
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_009",
+      "componentId": "BGA",
       "type": "rect",
       "layers": [
         "top"
@@ -529,6 +558,7 @@
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_019",
+      "componentId": "BGA",
       "type": "rect",
       "layers": [
         "top"
@@ -547,6 +577,7 @@
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_020",
+      "componentId": "BGA",
       "type": "rect",
       "layers": [
         "top"
@@ -565,6 +596,7 @@
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_034",
+      "componentId": "BGA",
       "type": "rect",
       "layers": [
         "top"
@@ -583,6 +615,7 @@
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_016",
+      "componentId": "BGA",
       "type": "rect",
       "layers": [
         "top"
@@ -601,6 +634,7 @@
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_014",
+      "componentId": "BGA",
       "type": "rect",
       "layers": [
         "top"
@@ -619,6 +653,7 @@
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_024",
+      "componentId": "BGA",
       "type": "rect",
       "layers": [
         "top"
@@ -637,6 +672,7 @@
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_010",
+      "componentId": "BGA",
       "type": "rect",
       "layers": [
         "top"
@@ -655,6 +691,7 @@
     },
     {
       "obstacleId": "pcb_smtpad_io_pin_001",
+      "componentId": "IO",
       "type": "rect",
       "layers": [
         "top"
@@ -673,6 +710,7 @@
     },
     {
       "obstacleId": "pcb_smtpad_io_pin_002",
+      "componentId": "IO",
       "type": "rect",
       "layers": [
         "top"
@@ -691,6 +729,7 @@
     },
     {
       "obstacleId": "pcb_smtpad_io_pin_003",
+      "componentId": "IO",
       "type": "rect",
       "layers": [
         "top"
@@ -709,6 +748,7 @@
     },
     {
       "obstacleId": "pcb_smtpad_io_pin_004",
+      "componentId": "IO",
       "type": "rect",
       "layers": [
         "top"
@@ -727,6 +767,7 @@
     },
     {
       "obstacleId": "pcb_smtpad_io_pin_005",
+      "componentId": "IO",
       "type": "rect",
       "layers": [
         "top"
@@ -745,6 +786,7 @@
     },
     {
       "obstacleId": "pcb_smtpad_io_pin_006",
+      "componentId": "IO",
       "type": "rect",
       "layers": [
         "top"
@@ -763,6 +805,7 @@
     },
     {
       "obstacleId": "pcb_smtpad_io_pin_007",
+      "componentId": "IO",
       "type": "rect",
       "layers": [
         "top"
@@ -781,6 +824,7 @@
     },
     {
       "obstacleId": "pcb_smtpad_io_pin_008",
+      "componentId": "IO",
       "type": "rect",
       "layers": [
         "top"
@@ -799,6 +843,7 @@
     },
     {
       "obstacleId": "pcb_smtpad_io_pin_009",
+      "componentId": "IO",
       "type": "rect",
       "layers": [
         "top"
@@ -817,6 +862,7 @@
     },
     {
       "obstacleId": "pcb_smtpad_io_pin_010",
+      "componentId": "IO",
       "type": "rect",
       "layers": [
         "top"
@@ -835,6 +881,7 @@
     },
     {
       "obstacleId": "pcb_smtpad_io_pin_011",
+      "componentId": "IO",
       "type": "rect",
       "layers": [
         "top"
@@ -853,6 +900,7 @@
     },
     {
       "obstacleId": "pcb_smtpad_io_pin_012",
+      "componentId": "IO",
       "type": "rect",
       "layers": [
         "top"
@@ -871,6 +919,7 @@
     },
     {
       "obstacleId": "pcb_smtpad_io_pin_013",
+      "componentId": "IO",
       "type": "rect",
       "layers": [
         "top"
@@ -889,6 +938,7 @@
     },
     {
       "obstacleId": "pcb_smtpad_io_pin_014",
+      "componentId": "IO",
       "type": "rect",
       "layers": [
         "top"
@@ -907,6 +957,7 @@
     },
     {
       "obstacleId": "pcb_smtpad_io_pin_015",
+      "componentId": "IO",
       "type": "rect",
       "layers": [
         "top"
@@ -925,6 +976,7 @@
     },
     {
       "obstacleId": "pcb_smtpad_io_pin_016",
+      "componentId": "IO",
       "type": "rect",
       "layers": [
         "top"
