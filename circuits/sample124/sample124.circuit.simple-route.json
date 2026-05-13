@@ -21,7 +21,8 @@
         "bga_pin_012",
         "pcb_port_bga_pin_012",
         "bga_net_012"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_063",
@@ -39,7 +40,8 @@
         "bga_pin_063",
         "pcb_port_bga_pin_063",
         "bga_net_063"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_097",
@@ -57,7 +59,8 @@
         "bga_pin_097",
         "pcb_port_bga_pin_097",
         "bga_net_097"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_078",
@@ -75,7 +78,8 @@
         "bga_pin_078",
         "pcb_port_bga_pin_078",
         "bga_net_078"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_082",
@@ -93,7 +97,8 @@
         "bga_pin_082",
         "pcb_port_bga_pin_082",
         "bga_net_082"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_018",
@@ -111,7 +116,8 @@
         "bga_pin_018",
         "pcb_port_bga_pin_018",
         "bga_net_018"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_016",
@@ -129,7 +135,8 @@
         "bga_pin_016",
         "pcb_port_bga_pin_016",
         "bga_net_016"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_071",
@@ -147,7 +154,8 @@
         "bga_pin_071",
         "pcb_port_bga_pin_071",
         "bga_net_071"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_090",
@@ -165,7 +173,8 @@
         "bga_pin_090",
         "pcb_port_bga_pin_090",
         "bga_net_090"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_010",
@@ -183,7 +192,8 @@
         "bga_pin_010",
         "pcb_port_bga_pin_010",
         "bga_net_010"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_096",
@@ -201,7 +211,8 @@
         "bga_pin_096",
         "pcb_port_bga_pin_096",
         "bga_net_096"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_041",
@@ -219,7 +230,8 @@
         "bga_pin_041",
         "pcb_port_bga_pin_041",
         "bga_net_041"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_083",
@@ -237,7 +249,8 @@
         "bga_pin_083",
         "pcb_port_bga_pin_083",
         "bga_net_083"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_069",
@@ -255,7 +268,8 @@
         "bga_pin_069",
         "pcb_port_bga_pin_069",
         "bga_net_069"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_027",
@@ -273,7 +287,8 @@
         "bga_pin_027",
         "pcb_port_bga_pin_027",
         "bga_net_027"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_034",
@@ -291,7 +306,8 @@
         "bga_pin_034",
         "pcb_port_bga_pin_034",
         "bga_net_034"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_031",
@@ -309,7 +325,8 @@
         "bga_pin_031",
         "pcb_port_bga_pin_031",
         "bga_net_031"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_073",
@@ -327,7 +344,8 @@
         "bga_pin_073",
         "pcb_port_bga_pin_073",
         "bga_net_073"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_081",
@@ -345,7 +363,8 @@
         "bga_pin_081",
         "pcb_port_bga_pin_081",
         "bga_net_081"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_057",
@@ -363,7 +382,8 @@
         "bga_pin_057",
         "pcb_port_bga_pin_057",
         "bga_net_057"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_054",
@@ -381,7 +401,8 @@
         "bga_pin_054",
         "pcb_port_bga_pin_054",
         "bga_net_054"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_004",
@@ -399,7 +420,8 @@
         "bga_pin_004",
         "pcb_port_bga_pin_004",
         "bga_net_004"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_036",
@@ -417,7 +439,8 @@
         "bga_pin_036",
         "pcb_port_bga_pin_036",
         "bga_net_036"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_013",
@@ -435,7 +458,8 @@
         "bga_pin_013",
         "pcb_port_bga_pin_013",
         "bga_net_013"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_095",
@@ -453,7 +477,8 @@
         "bga_pin_095",
         "pcb_port_bga_pin_095",
         "bga_net_095"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_030",
@@ -471,7 +496,8 @@
         "bga_pin_030",
         "pcb_port_bga_pin_030",
         "bga_net_030"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_043",
@@ -489,7 +515,8 @@
         "bga_pin_043",
         "pcb_port_bga_pin_043",
         "bga_net_043"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_064",
@@ -507,7 +534,8 @@
         "bga_pin_064",
         "pcb_port_bga_pin_064",
         "bga_net_064"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_021",
@@ -525,7 +553,8 @@
         "bga_pin_021",
         "pcb_port_bga_pin_021",
         "bga_net_021"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_005",
@@ -543,7 +572,8 @@
         "bga_pin_005",
         "pcb_port_bga_pin_005",
         "bga_net_005"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_089",
@@ -561,7 +591,8 @@
         "bga_pin_089",
         "pcb_port_bga_pin_089",
         "bga_net_089"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_061",
@@ -579,7 +610,8 @@
         "bga_pin_061",
         "pcb_port_bga_pin_061",
         "bga_net_061"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_087",
@@ -597,7 +629,8 @@
         "bga_pin_087",
         "pcb_port_bga_pin_087",
         "bga_net_087"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_015",
@@ -615,7 +648,8 @@
         "bga_pin_015",
         "pcb_port_bga_pin_015",
         "bga_net_015"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_038",
@@ -633,7 +667,8 @@
         "bga_pin_038",
         "pcb_port_bga_pin_038",
         "bga_net_038"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_100",
@@ -651,7 +686,8 @@
         "bga_pin_100",
         "pcb_port_bga_pin_100",
         "bga_net_100"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_046",
@@ -669,7 +705,8 @@
         "bga_pin_046",
         "pcb_port_bga_pin_046",
         "bga_net_046"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_033",
@@ -687,7 +724,8 @@
         "bga_pin_033",
         "pcb_port_bga_pin_033",
         "bga_net_033"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_079",
@@ -705,7 +743,8 @@
         "bga_pin_079",
         "pcb_port_bga_pin_079",
         "bga_net_079"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_059",
@@ -723,7 +762,8 @@
         "bga_pin_059",
         "pcb_port_bga_pin_059",
         "bga_net_059"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_039",
@@ -741,7 +781,8 @@
         "bga_pin_039",
         "pcb_port_bga_pin_039",
         "bga_net_039"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_045",
@@ -759,7 +800,8 @@
         "bga_pin_045",
         "pcb_port_bga_pin_045",
         "bga_net_045"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_080",
@@ -777,7 +819,8 @@
         "bga_pin_080",
         "pcb_port_bga_pin_080",
         "bga_net_080"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_088",
@@ -795,7 +838,8 @@
         "bga_pin_088",
         "pcb_port_bga_pin_088",
         "bga_net_088"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_051",
@@ -813,7 +857,8 @@
         "bga_pin_051",
         "pcb_port_bga_pin_051",
         "bga_net_051"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_040",
@@ -831,7 +876,8 @@
         "bga_pin_040",
         "pcb_port_bga_pin_040",
         "bga_net_040"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_099",
@@ -849,7 +895,8 @@
         "bga_pin_099",
         "pcb_port_bga_pin_099",
         "bga_net_099"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_009",
@@ -867,7 +914,8 @@
         "bga_pin_009",
         "pcb_port_bga_pin_009",
         "bga_net_009"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_006",
@@ -885,7 +933,8 @@
         "bga_pin_006",
         "pcb_port_bga_pin_006",
         "bga_net_006"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_076",
@@ -903,7 +952,8 @@
         "bga_pin_076",
         "pcb_port_bga_pin_076",
         "bga_net_076"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_092",
@@ -921,7 +971,8 @@
         "bga_pin_092",
         "pcb_port_bga_pin_092",
         "bga_net_092"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_007",
@@ -939,7 +990,8 @@
         "bga_pin_007",
         "pcb_port_bga_pin_007",
         "bga_net_007"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_017",
@@ -957,7 +1009,8 @@
         "bga_pin_017",
         "pcb_port_bga_pin_017",
         "bga_net_017"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_094",
@@ -975,7 +1028,8 @@
         "bga_pin_094",
         "pcb_port_bga_pin_094",
         "bga_net_094"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_022",
@@ -993,7 +1047,8 @@
         "bga_pin_022",
         "pcb_port_bga_pin_022",
         "bga_net_022"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_052",
@@ -1011,7 +1066,8 @@
         "bga_pin_052",
         "pcb_port_bga_pin_052",
         "bga_net_052"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_058",
@@ -1029,7 +1085,8 @@
         "bga_pin_058",
         "pcb_port_bga_pin_058",
         "bga_net_058"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_091",
@@ -1047,7 +1104,8 @@
         "bga_pin_091",
         "pcb_port_bga_pin_091",
         "bga_net_091"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_002",
@@ -1065,7 +1123,8 @@
         "bga_pin_002",
         "pcb_port_bga_pin_002",
         "bga_net_002"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_008",
@@ -1083,7 +1142,8 @@
         "bga_pin_008",
         "pcb_port_bga_pin_008",
         "bga_net_008"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_001",
@@ -1101,7 +1161,8 @@
         "bga_pin_001",
         "pcb_port_bga_pin_001",
         "bga_net_001"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_060",
@@ -1119,7 +1180,8 @@
         "bga_pin_060",
         "pcb_port_bga_pin_060",
         "bga_net_060"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_050",
@@ -1137,7 +1199,8 @@
         "bga_pin_050",
         "pcb_port_bga_pin_050",
         "bga_net_050"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_042",
@@ -1155,7 +1218,8 @@
         "bga_pin_042",
         "pcb_port_bga_pin_042",
         "bga_net_042"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_075",
@@ -1173,7 +1237,8 @@
         "bga_pin_075",
         "pcb_port_bga_pin_075",
         "bga_net_075"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_093",
@@ -1191,7 +1256,8 @@
         "bga_pin_093",
         "pcb_port_bga_pin_093",
         "bga_net_093"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_029",
@@ -1209,7 +1275,8 @@
         "bga_pin_029",
         "pcb_port_bga_pin_029",
         "bga_net_029"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_003",
@@ -1227,7 +1294,8 @@
         "bga_pin_003",
         "pcb_port_bga_pin_003",
         "bga_net_003"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_032",
@@ -1245,7 +1313,8 @@
         "bga_pin_032",
         "pcb_port_bga_pin_032",
         "bga_net_032"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_026",
@@ -1263,7 +1332,8 @@
         "bga_pin_026",
         "pcb_port_bga_pin_026",
         "bga_net_026"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_049",
@@ -1281,7 +1351,8 @@
         "bga_pin_049",
         "pcb_port_bga_pin_049",
         "bga_net_049"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_023",
@@ -1299,7 +1370,8 @@
         "bga_pin_023",
         "pcb_port_bga_pin_023",
         "bga_net_023"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_067",
@@ -1317,7 +1389,8 @@
         "bga_pin_067",
         "pcb_port_bga_pin_067",
         "bga_net_067"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_055",
@@ -1335,7 +1408,8 @@
         "bga_pin_055",
         "pcb_port_bga_pin_055",
         "bga_net_055"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_072",
@@ -1353,7 +1427,8 @@
         "bga_pin_072",
         "pcb_port_bga_pin_072",
         "bga_net_072"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_019",
@@ -1371,7 +1446,8 @@
         "bga_pin_019",
         "pcb_port_bga_pin_019",
         "bga_net_019"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_047",
@@ -1389,7 +1465,8 @@
         "bga_pin_047",
         "pcb_port_bga_pin_047",
         "bga_net_047"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_048",
@@ -1407,7 +1484,8 @@
         "bga_pin_048",
         "pcb_port_bga_pin_048",
         "bga_net_048"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_056",
@@ -1425,7 +1503,8 @@
         "bga_pin_056",
         "pcb_port_bga_pin_056",
         "bga_net_056"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_014",
@@ -1443,7 +1522,8 @@
         "bga_pin_014",
         "pcb_port_bga_pin_014",
         "bga_net_014"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_084",
@@ -1461,7 +1541,8 @@
         "bga_pin_084",
         "pcb_port_bga_pin_084",
         "bga_net_084"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_068",
@@ -1479,7 +1560,8 @@
         "bga_pin_068",
         "pcb_port_bga_pin_068",
         "bga_net_068"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_074",
@@ -1497,7 +1579,8 @@
         "bga_pin_074",
         "pcb_port_bga_pin_074",
         "bga_net_074"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_066",
@@ -1515,7 +1598,8 @@
         "bga_pin_066",
         "pcb_port_bga_pin_066",
         "bga_net_066"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_024",
@@ -1533,7 +1617,8 @@
         "bga_pin_024",
         "pcb_port_bga_pin_024",
         "bga_net_024"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_044",
@@ -1551,7 +1636,8 @@
         "bga_pin_044",
         "pcb_port_bga_pin_044",
         "bga_net_044"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_011",
@@ -1569,7 +1655,8 @@
         "bga_pin_011",
         "pcb_port_bga_pin_011",
         "bga_net_011"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_085",
@@ -1587,7 +1674,8 @@
         "bga_pin_085",
         "pcb_port_bga_pin_085",
         "bga_net_085"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_053",
@@ -1605,7 +1693,8 @@
         "bga_pin_053",
         "pcb_port_bga_pin_053",
         "bga_net_053"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_020",
@@ -1623,7 +1712,8 @@
         "bga_pin_020",
         "pcb_port_bga_pin_020",
         "bga_net_020"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_098",
@@ -1641,7 +1731,8 @@
         "bga_pin_098",
         "pcb_port_bga_pin_098",
         "bga_net_098"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_025",
@@ -1659,7 +1750,8 @@
         "bga_pin_025",
         "pcb_port_bga_pin_025",
         "bga_net_025"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_028",
@@ -1677,7 +1769,8 @@
         "bga_pin_028",
         "pcb_port_bga_pin_028",
         "bga_net_028"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_077",
@@ -1695,7 +1788,8 @@
         "bga_pin_077",
         "pcb_port_bga_pin_077",
         "bga_net_077"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_086",
@@ -1713,7 +1807,8 @@
         "bga_pin_086",
         "pcb_port_bga_pin_086",
         "bga_net_086"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_037",
@@ -1731,7 +1826,8 @@
         "bga_pin_037",
         "pcb_port_bga_pin_037",
         "bga_net_037"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_035",
@@ -1749,7 +1845,8 @@
         "bga_pin_035",
         "pcb_port_bga_pin_035",
         "bga_net_035"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_065",
@@ -1767,7 +1864,8 @@
         "bga_pin_065",
         "pcb_port_bga_pin_065",
         "bga_net_065"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_070",
@@ -1785,7 +1883,8 @@
         "bga_pin_070",
         "pcb_port_bga_pin_070",
         "bga_net_070"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_bga_pin_062",
@@ -1803,7 +1902,8 @@
         "bga_pin_062",
         "pcb_port_bga_pin_062",
         "bga_net_062"
-      ]
+      ],
+      "componentId": "bga_component"
     },
     {
       "obstacleId": "pcb_smtpad_io_pin_001",

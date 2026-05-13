@@ -6,6 +6,23 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const repoRoot = path.resolve(__dirname, "..")
 const circuitsDir = path.join(repoRoot, "circuits")
 const datasetDistDir = path.join(repoRoot, "dataset-dist")
+const bgaPadComponentId = "bga_component"
+
+function addBgaPadComponentIds(srj) {
+  let changed = false
+
+  for (const obstacle of srj.obstacles ?? []) {
+    if (
+      obstacle.obstacleId?.startsWith("pcb_smtpad_bga_pin_") &&
+      obstacle.componentId !== bgaPadComponentId
+    ) {
+      obstacle.componentId = bgaPadComponentId
+      changed = true
+    }
+  }
+
+  return changed
+}
 
 async function getSamples() {
   const sampleNames = (await readdir(circuitsDir, { withFileTypes: true }))
@@ -17,7 +34,12 @@ async function getSamples() {
   return Promise.all(
     sampleNames.map(async (sampleName) => {
       const sourceFile = `circuits/${sampleName}/${sampleName}.circuit.simple-route.json`
-      const srj = JSON.parse(await readFile(path.join(repoRoot, sourceFile), "utf8"))
+      const sourcePath = path.join(repoRoot, sourceFile)
+      const srj = JSON.parse(await readFile(sourcePath, "utf8"))
+
+      if (addBgaPadComponentIds(srj)) {
+        await writeFile(sourcePath, `${JSON.stringify(srj, null, 2)}\n`)
+      }
 
       return {
         sampleName,

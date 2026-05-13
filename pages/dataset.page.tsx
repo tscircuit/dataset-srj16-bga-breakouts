@@ -18,7 +18,6 @@ type SrjObstacle = SimpleRouteJson["obstacles"][number] & {
 }
 
 const SAMPLE_HASH_PARAM = "sample"
-const GRAPH_VIEW_HEIGHT = 860
 
 const clampSampleIndex = (sampleIndex: number) =>
   Math.min(
@@ -345,17 +344,11 @@ const getObjectLabelAtPoint = (
   return null
 }
 
-function GraphicsDebugViewer({
-  graphics,
-  height,
-}: {
-  graphics: GraphicsObject
-  height: number
-}) {
+function GraphicsDebugViewer({ graphics }: { graphics: GraphicsObject }) {
   const canvasRef = useRef<HTMLCanvasElement | null>(null)
   const containerRef = useRef<HTMLDivElement | null>(null)
   const dragRef = useRef<{ x: number; y: number } | null>(null)
-  const [size, setSize] = useState({ width: 1, height })
+  const [size, setSize] = useState({ width: 1, height: 1 })
   const [transform, setTransform] = useState<Matrix | null>(null)
   const [hover, setHover] = useState<{
     label: string
@@ -369,14 +362,15 @@ function GraphicsDebugViewer({
 
     const updateSize = () => {
       const nextWidth = Math.max(1, container.clientWidth)
-      setSize({ width: nextWidth, height })
+      const nextHeight = Math.max(1, container.clientHeight)
+      setSize({ width: nextWidth, height: nextHeight })
     }
 
     updateSize()
     const resizeObserver = new ResizeObserver(updateSize)
     resizeObserver.observe(container)
     return () => resizeObserver.disconnect()
-  }, [height])
+  }, [])
 
   useEffect(() => {
     const maxAbsCoordinate = getGraphicsMaxAbsCoordinate(graphics)
@@ -468,7 +462,7 @@ function GraphicsDebugViewer({
   return (
     <div
       ref={containerRef}
-      style={{ height, position: "relative", width: "100%" }}
+      style={{ height: "100%", position: "relative", width: "100%" }}
     >
       <canvas
         ref={canvasRef}
@@ -489,7 +483,7 @@ function GraphicsDebugViewer({
         style={{
           background: "#fff",
           cursor: dragRef.current ? "grabbing" : "grab",
-          height,
+          height: "100%",
           width: "100%",
         }}
       />
@@ -723,7 +717,7 @@ export default function DatasetPage() {
           borderRadius: 4,
           flex: "1 1 0",
           minHeight: 0,
-          overflow: "auto",
+          overflow: "hidden",
           padding: 8,
         }}
       >
@@ -735,7 +729,6 @@ export default function DatasetPage() {
           <GraphicsDebugViewer
             key={selectedSampleMeta.sampleName}
             graphics={graphics}
-            height={GRAPH_VIEW_HEIGHT}
           />
         ) : (
           <div style={{ color: "#334155", fontSize: 14, padding: 16 }}>
