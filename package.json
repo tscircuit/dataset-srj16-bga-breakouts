@@ -8,6 +8,11 @@
     "circuits",
     "dataset-dist",
     "scripts",
+    "pages",
+    "cosmos.config.json",
+    "cosmos.decorator.tsx",
+    "graphics-debug-react.d.ts",
+    "index.html",
     "index.js",
     "index.d.ts"
   ],
@@ -22,15 +27,19 @@
     "snapshot": "tsci snapshot circuits/sample001/sample001.circuit.tsx",
     "snapshot:update": "tsci snapshot circuits/sample001/sample001.circuit.tsx --update",
     "build:dataset-dist": "bun scripts/build-dataset-dist.mjs",
-    "start": "tsci dev",
+    "start": "cosmos",
     "typecheck": "tsc --noEmit",
     "dev": "tsci dev"
   },
   "devDependencies": {
     "@tscircuit/capacity-autorouter": "^0.0.484",
     "@types/react": "^19.2.14",
+    "graphics-debug": "^0.0.94",
+    "react-cosmos": "^7.3.0",
+    "react-cosmos-plugin-vite": "^7.3.0",
     "tscircuit": "^0.0.1672",
-    "typescript": "^5.0.0"
+    "typescript": "^5.0.0",
+    "vite": "^8.0.12"
   },
   "author": "imrishabh18"
 }
